@@ -4,7 +4,7 @@
 	         AnyLogic Project File 
 *************************************************	         
 -->
-<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.5.2.202001241926" AlpVersion="8.5.1">
+<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.5.2.202001241833" AlpVersion="8.5.1">
 <Model>
 	<Id>1585385365501</Id>
 	<Name><![CDATA[DelayedCokingUnit]]></Name>
@@ -3682,6 +3682,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[storageTank]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[С_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -3787,6 +3790,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pipe]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[ТС1_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -4177,6 +4183,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[storageTank]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[РК_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -4285,6 +4294,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pipe]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[ТС2_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -4393,6 +4405,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pipe]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[ТС3_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -7159,6 +7174,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[storageTank]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[П1_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -7294,6 +7312,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[storageTank]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[П2_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -13001,6 +13022,420 @@
 					</Font>
 					<Alignment>LEFT</Alignment>
 				</Text>
+				<StorageTank>
+					<Id>1588271981464</Id>
+					<Name><![CDATA[РК_vis]]></Name>
+					<X>740</X><Y>1280</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>1077952576</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<Diameter>60</Diameter>				
+					<Height>100</Height>				
+				</StorageTank>
+				<StorageTank>
+					<Id>1588272351741</Id>
+					<Name><![CDATA[П1_vis]]></Name>
+					<X>450</X><Y>1060</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>1073742079</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<Diameter>50</Diameter>				
+					<Height>100</Height>				
+				</StorageTank>
+				<StorageTank>
+					<Id>1588272400044</Id>
+					<Name><![CDATA[П2_vis]]></Name>
+					<X>450</X><Y>1160</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>1073742079</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<Diameter>50</Diameter>				
+					<Height>100</Height>				
+				</StorageTank>
+				<StorageTank>
+					<Id>1588272995366</Id>
+					<Name><![CDATA[С_vis]]></Name>
+					<X>60</X><Y>1060</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>1090453504</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<Diameter>100</Diameter>				
+					<Height>100</Height>				
+				</StorageTank>
+				<Pipe>
+					<Id>1588273035394</Id>
+					<Name><![CDATA[ТС1_vis]]></Name>
+					<X>100</X><Y>1060</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>1073741824</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<Diameter>8</Diameter>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>60</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>100</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>140</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>140</X><Y>40</Y><Z>0</Z></Point>
+					</Points>
+				</Pipe>
+				<Line>
+					<Id>1588273143691</Id>
+					<Name><![CDATA[line]]></Name>
+					<X>80</X><Y>1160</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<Dx>-20</Dx>
+					<Dy>-100</Dy>
+					<Dz>0</Dz>
+				</Line>
+				<Text>
+					<Id>1588273152164</Id>
+					<Name><![CDATA[text1]]></Name>
+					<X>80</X><Y>1160</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Сырье]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Line>
+					<Id>1588273168020</Id>
+					<Name><![CDATA[line1]]></Name>
+					<X>450</X><Y>1060</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<Dx>63</Dx>
+					<Dy>-40</Dy>
+					<Dz>0</Dz>
+				</Line>
+				<Text>
+					<Id>1588273175629</Id>
+					<Name><![CDATA[text2]]></Name>
+					<X>520</X><Y>1010</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Печь 1]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1588273217632</Id>
+					<Name><![CDATA[text3]]></Name>
+					<X>380</X><Y>1200</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Печь 2
+]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Line>
+					<Id>1588273222502</Id>
+					<Name><![CDATA[line2]]></Name>
+					<X>390</X><Y>1200</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<Dx>63</Dx>
+					<Dy>-40</Dy>
+					<Dz>0</Dz>
+				</Line>
+				<Pipe>
+					<Id>1588273277091</Id>
+					<Name><![CDATA[ТС3_vis]]></Name>
+					<X>240</X><Y>1100</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>1073807359</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<Diameter>8</Diameter>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>100</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>100</X><Y>-40</Y><Z>0</Z></Point>
+						<Point><X>200</X><Y>-40</Y><Z>0</Z></Point>
+					</Points>
+				</Pipe>
+				<Pipe>
+					<Id>1588273340954</Id>
+					<Name><![CDATA[ТС2_vis]]></Name>
+					<X>240</X><Y>1100</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>1073807104</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<Diameter>8</Diameter>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>60</Y><Z>0</Z></Point>
+						<Point><X>80</X><Y>60</Y><Z>0</Z></Point>
+						<Point><X>200</X><Y>60</Y><Z>0</Z></Point>
+					</Points>
+				</Pipe>
+				<Line>
+					<Id>1588273390034</Id>
+					<Name><![CDATA[line3]]></Name>
+					<X>200</X><Y>1060</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<Dx>40</Dx>
+					<Dy>-40</Dy>
+					<Dz>0</Dz>
+				</Line>
+				<Text>
+					<Id>1588273397270</Id>
+					<Name><![CDATA[text4]]></Name>
+					<X>150</X><Y>1010</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Труба Сырье-> Насос-> Ветвление]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Line>
+					<Id>1588273411993</Id>
+					<Name><![CDATA[line4]]></Name>
+					<X>380</X><Y>1060</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<Dx>0</Dx>
+					<Dy>-40</Dy>
+					<Dz>0</Dz>
+				</Line>
+				<Text>
+					<Id>1588273418364</Id>
+					<Name><![CDATA[text5]]></Name>
+					<X>360</X><Y>1000</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Труба Сырье->Печь 1
+]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1588273437926</Id>
+					<Name><![CDATA[text6]]></Name>
+					<X>180</X><Y>1200</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Труба Сырье->Печь 2
+]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Line>
+					<Id>1588273446641</Id>
+					<Name><![CDATA[line5]]></Name>
+					<X>200</X><Y>1200</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<Dx>60</Dx>
+					<Dy>-40</Dy>
+					<Dz>0</Dz>
+				</Line>
+				<Pipe>
+					<Id>1588273591519</Id>
+					<Name><![CDATA[П2Т1_vis]]></Name>
+					<X>470</X><Y>1160</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>1077952576</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<Diameter>8</Diameter>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>50</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>70</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>140</X><Y>0</Y><Z>0</Z></Point>
+					</Points>
+				</Pipe>
 			</Presentation>
 
 				</Level>
