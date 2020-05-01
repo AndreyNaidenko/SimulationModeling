@@ -13025,7 +13025,7 @@
 				<StorageTank>
 					<Id>1588271981464</Id>
 					<Name><![CDATA[РК_vis]]></Name>
-					<X>930</X><Y>1060</Y>
+					<X>930</X><Y>1300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13040,7 +13040,7 @@
 				<StorageTank>
 					<Id>1588272351741</Id>
 					<Name><![CDATA[П1_vis]]></Name>
-					<X>450</X><Y>1060</Y>
+					<X>530</X><Y>1260</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13055,7 +13055,7 @@
 				<StorageTank>
 					<Id>1588272400044</Id>
 					<Name><![CDATA[П2_vis]]></Name>
-					<X>450</X><Y>1160</Y>
+					<X>530</X><Y>1360</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13070,7 +13070,7 @@
 				<StorageTank>
 					<Id>1588272995366</Id>
 					<Name><![CDATA[С_vis]]></Name>
-					<X>60</X><Y>1060</Y>
+					<X>140</X><Y>1260</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13085,7 +13085,7 @@
 				<Pipe>
 					<Id>1588273035394</Id>
 					<Name><![CDATA[ТС1_vis]]></Name>
-					<X>100</X><Y>1060</Y>
+					<X>180</X><Y>1260</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13106,7 +13106,7 @@
 				<Line>
 					<Id>1588273143691</Id>
 					<Name><![CDATA[line]]></Name>
-					<X>80</X><Y>1160</Y>
+					<X>160</X><Y>1360</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13130,7 +13130,7 @@
 				<Text>
 					<Id>1588273152164</Id>
 					<Name><![CDATA[text1]]></Name>
-					<X>80</X><Y>1160</Y>
+					<X>160</X><Y>1360</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13151,7 +13151,7 @@
 				<Line>
 					<Id>1588273168020</Id>
 					<Name><![CDATA[line1]]></Name>
-					<X>450</X><Y>1060</Y>
+					<X>530</X><Y>1260</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13175,7 +13175,7 @@
 				<Text>
 					<Id>1588273175629</Id>
 					<Name><![CDATA[text2]]></Name>
-					<X>520</X><Y>1010</Y>
+					<X>600</X><Y>1210</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13196,7 +13196,7 @@
 				<Text>
 					<Id>1588273217632</Id>
 					<Name><![CDATA[text3]]></Name>
-					<X>380</X><Y>1200</Y>
+					<X>460</X><Y>1400</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13218,7 +13218,7 @@
 				<Line>
 					<Id>1588273222502</Id>
 					<Name><![CDATA[line2]]></Name>
-					<X>390</X><Y>1200</Y>
+					<X>470</X><Y>1400</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13242,7 +13242,7 @@
 				<Pipe>
 					<Id>1588273277091</Id>
 					<Name><![CDATA[ТС3_vis]]></Name>
-					<X>240</X><Y>1100</Y>
+					<X>320</X><Y>1300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13262,7 +13262,7 @@
 				<Pipe>
 					<Id>1588273340954</Id>
 					<Name><![CDATA[ТС2_vis]]></Name>
-					<X>240</X><Y>1100</Y>
+					<X>320</X><Y>1300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13282,7 +13282,7 @@
 				<Line>
 					<Id>1588273390034</Id>
 					<Name><![CDATA[line3]]></Name>
-					<X>200</X><Y>1060</Y>
+					<X>280</X><Y>1260</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13306,7 +13306,7 @@
 				<Text>
 					<Id>1588273397270</Id>
 					<Name><![CDATA[text4]]></Name>
-					<X>150</X><Y>1010</Y>
+					<X>230</X><Y>1210</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13327,7 +13327,7 @@
 				<Line>
 					<Id>1588273411993</Id>
 					<Name><![CDATA[line4]]></Name>
-					<X>380</X><Y>1060</Y>
+					<X>460</X><Y>1260</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13351,7 +13351,7 @@
 				<Text>
 					<Id>1588273418364</Id>
 					<Name><![CDATA[text5]]></Name>
-					<X>360</X><Y>1000</Y>
+					<X>440</X><Y>1200</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13373,7 +13373,7 @@
 				<Text>
 					<Id>1588273437926</Id>
 					<Name><![CDATA[text6]]></Name>
-					<X>180</X><Y>1200</Y>
+					<X>260</X><Y>1400</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13395,7 +13395,7 @@
 				<Line>
 					<Id>1588273446641</Id>
 					<Name><![CDATA[line5]]></Name>
-					<X>200</X><Y>1200</Y>
+					<X>280</X><Y>1400</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13419,7 +13419,7 @@
 				<Pipe>
 					<Id>1588273591519</Id>
 					<Name><![CDATA[П2Т1_vis]]></Name>
-					<X>470</X><Y>1160</Y>
+					<X>550</X><Y>1360</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13439,7 +13439,7 @@
 				<Line>
 					<Id>1588340624050</Id>
 					<Name><![CDATA[line6]]></Name>
-					<X>940</X><Y>1060</Y>
+					<X>935</X><Y>1295</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13456,14 +13456,14 @@
 					<BeginArrowStyle>0</BeginArrowStyle>
 					<EndArrowSize>1</EndArrowSize>
 					<EndArrowStyle>0</EndArrowStyle>
-					<Dx>63</Dx>
-					<Dy>-40</Dy>
+					<Dx>75</Dx>
+					<Dy>-15</Dy>
 					<Dz>0</Dz>
 				</Line>
 				<Text>
 					<Id>1588340642678</Id>
 					<Name><![CDATA[text7]]></Name>
-					<X>1000</X><Y>1000</Y>
+					<X>990</X><Y>1260</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13484,7 +13484,7 @@
 				<StorageTank>
 					<Id>1588340848658</Id>
 					<Name><![CDATA[РК_vis1]]></Name>
-					<X>810</X><Y>1220</Y>
+					<X>890</X><Y>1420</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13499,7 +13499,7 @@
 				<StorageTank>
 					<Id>1588340853236</Id>
 					<Name><![CDATA[РК_vis2]]></Name>
-					<X>880</X><Y>1220</Y>
+					<X>960</X><Y>1420</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13514,7 +13514,7 @@
 				<StorageTank>
 					<Id>1588340858762</Id>
 					<Name><![CDATA[РК_vis3]]></Name>
-					<X>1010</X><Y>1220</Y>
+					<X>1090</X><Y>1420</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13529,7 +13529,7 @@
 				<StorageTank>
 					<Id>1588340863287</Id>
 					<Name><![CDATA[РК_vis4]]></Name>
-					<X>1080</X><Y>1220</Y>
+					<X>1160</X><Y>1420</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13544,7 +13544,7 @@
 				<Line>
 					<Id>1588341042222</Id>
 					<Name><![CDATA[line8]]></Name>
-					<X>880</X><Y>1230</Y>
+					<X>960</X><Y>1430</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13568,7 +13568,7 @@
 				<Line>
 					<Id>1588341082768</Id>
 					<Name><![CDATA[line9]]></Name>
-					<X>1010</X><Y>1230</Y>
+					<X>1090</X><Y>1430</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13592,7 +13592,7 @@
 				<Line>
 					<Id>1588341087467</Id>
 					<Name><![CDATA[line10]]></Name>
-					<X>1080</X><Y>1230</Y>
+					<X>1160</X><Y>1430</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13616,7 +13616,7 @@
 				<Line>
 					<Id>1588341097498</Id>
 					<Name><![CDATA[line11]]></Name>
-					<X>810</X><Y>1230</Y>
+					<X>890</X><Y>1430</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13640,7 +13640,7 @@
 				<Text>
 					<Id>1588341134365</Id>
 					<Name><![CDATA[text8]]></Name>
-					<X>740</X><Y>1320</Y>
+					<X>820</X><Y>1520</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13661,7 +13661,7 @@
 				<Text>
 					<Id>1588341153787</Id>
 					<Name><![CDATA[text9]]></Name>
-					<X>840</X><Y>1320</Y>
+					<X>920</X><Y>1520</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13682,7 +13682,7 @@
 				<Text>
 					<Id>1588341174871</Id>
 					<Name><![CDATA[text10]]></Name>
-					<X>950</X><Y>1320</Y>
+					<X>1030</X><Y>1520</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13703,7 +13703,7 @@
 				<Text>
 					<Id>1588341193967</Id>
 					<Name><![CDATA[text11]]></Name>
-					<X>1050</X><Y>1320</Y>
+					<X>1130</X><Y>1520</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13723,8 +13723,8 @@
 				</Text>
 				<Pipe>
 					<Id>1588341631569</Id>
-					<Name><![CDATA[П2Т1_vis2]]></Name>
-					<X>560</X><Y>1160</Y>
+					<Name><![CDATA[П2Т3_vis]]></Name>
+					<X>640</X><Y>1360</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13737,14 +13737,14 @@
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>50</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>70</X><Y>20</Y><Z>0</Z></Point>
-						<Point><X>90</X><Y>20</Y><Z>0</Z></Point>
+						<Point><X>75</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>90</X><Y>0</Y><Z>0</Z></Point>
 					</Points>
 				</Pipe>
 				<Pipe>
 					<Id>1588341681292</Id>
 					<Name><![CDATA[П12Т1_vis]]></Name>
-					<X>780</X><Y>1100</Y>
+					<X>860</X><Y>1300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13756,16 +13756,16 @@
 					<Diameter>8</Diameter>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>20</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>60</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>150</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>150</X><Y>-40</Y><Z>0</Z></Point>
+						<Point><X>15</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>30</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>40</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>55</X><Y>0</Y><Z>0</Z></Point>
 					</Points>
 				</Pipe>
 				<Pipe>
 					<Id>1588341786287</Id>
 					<Name><![CDATA[П1Т2_vis]]></Name>
-					<X>600</X><Y>1060</Y>
+					<X>670</X><Y>1260</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13777,16 +13777,16 @@
 					<Diameter>8</Diameter>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>100</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>140</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>180</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>180</X><Y>40</Y><Z>0</Z></Point>
+						<Point><X>110</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>150</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>190</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>190</X><Y>40</Y><Z>0</Z></Point>
 					</Points>
 				</Pipe>
 				<Pipe>
 					<Id>1588341842634</Id>
 					<Name><![CDATA[П2Т2_vis]]></Name>
-					<X>560</X><Y>1160</Y>
+					<X>640</X><Y>1360</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13801,6 +13801,138 @@
 						<Point><X>0</X><Y>-60</Y><Z>0</Z></Point>
 						<Point><X>140</X><Y>-60</Y><Z>0</Z></Point>
 						<Point><X>220</X><Y>-60</Y><Z>0</Z></Point>
+					</Points>
+				</Pipe>
+				<Pipe>
+					<Id>1588355046689</Id>
+					<Name><![CDATA[П1Т1_vis]]></Name>
+					<X>530</X><Y>1260</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>1083886898</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<Diameter>8</Diameter>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>100</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>110</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>130</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>150</X><Y>0</Y><Z>0</Z></Point>
+					</Points>
+				</Pipe>
+				<Pipe>
+					<Id>1588355241991</Id>
+					<Name><![CDATA[П1Т3_vis]]></Name>
+					<X>680</X><Y>1260</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>1090453759</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<Diameter>8</Diameter>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>-40</Y><Z>0</Z></Point>
+						<Point><X>60</X><Y>-40</Y><Z>0</Z></Point>
+						<Point><X>100</X><Y>-40</Y><Z>0</Z></Point>
+						<Point><X>150</X><Y>-40</Y><Z>0</Z></Point>
+					</Points>
+				</Pipe>
+				<Pipe>
+					<Id>1588355358737</Id>
+					<Name><![CDATA[П1T4_vis]]></Name>
+					<X>825</X><Y>1220</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>1090453504</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<Diameter>8</Diameter>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>33</X><Y>-31</Y><Z>0</Z></Point>
+						<Point><X>93</X><Y>-31</Y><Z>0</Z></Point>
+						<Point><X>133</X><Y>-31</Y><Z>0</Z></Point>
+						<Point><X>405</X><Y>-30</Y><Z>0</Z></Point>
+						<Point><X>405</X><Y>105</Y><Z>0</Z></Point>
+						<Point><X>335</X><Y>105</Y><Z>0</Z></Point>
+						<Point><X>335</X><Y>190</Y><Z>0</Z></Point>
+					</Points>
+				</Pipe>
+				<Pipe>
+					<Id>1588355365158</Id>
+					<Name><![CDATA[П1T5_vis]]></Name>
+					<X>825</X><Y>1220</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>1073742079</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<Diameter>8</Diameter>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>40</X><Y>25</Y><Z>0</Z></Point>
+						<Point><X>60</X><Y>25</Y><Z>0</Z></Point>
+						<Point><X>95</X><Y>25</Y><Z>0</Z></Point>
+						<Point><X>385</X><Y>25</Y><Z>0</Z></Point>
+						<Point><X>385</X><Y>80</Y><Z>0</Z></Point>
+						<Point><X>265</X><Y>80</Y><Z>0</Z></Point>
+						<Point><X>265</X><Y>190</Y><Z>0</Z></Point>
+					</Points>
+				</Pipe>
+				<Pipe>
+					<Id>1588355964051</Id>
+					<Name><![CDATA[П2Т4_vis]]></Name>
+					<X>730</X><Y>1360</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>1085953491</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<Diameter>8</Diameter>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>-20</Y><Z>0</Z></Point>
+						<Point><X>55</X><Y>-20</Y><Z>0</Z></Point>
+						<Point><X>230</X><Y>-20</Y><Z>0</Z></Point>
+						<Point><X>230</X><Y>60</Y><Z>0</Z></Point>
+					</Points>
+				</Pipe>
+				<Pipe>
+					<Id>1588355983718</Id>
+					<Name><![CDATA[П2Т5_vis]]></Name>
+					<X>730</X><Y>1360</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>1087210815</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<Diameter>8</Diameter>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>20</Y><Z>0</Z></Point>
+						<Point><X>55</X><Y>20</Y><Z>0</Z></Point>
+						<Point><X>160</X><Y>20</Y><Z>0</Z></Point>
+						<Point><X>160</X><Y>60</Y><Z>0</Z></Point>
 					</Points>
 				</Pipe>
 			</Presentation>
