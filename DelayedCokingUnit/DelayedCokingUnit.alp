@@ -1157,7 +1157,7 @@
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>30</X><Y>0</Y></Point>
 						<Point><X>30</X><Y>30</Y></Point>
-						<Point><X>50</X><Y>30</Y></Point>
+						<Point><X>100</X><Y>30</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -1197,7 +1197,7 @@
 				<Connector>
 					<Id>1587483189118</Id>
 					<Name><![CDATA[connector35]]></Name>
-					<X>970</X><Y>200</Y>
+					<X>1020</X><Y>200</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1263,7 +1263,7 @@
 				<Connector>
 					<Id>1587483219497</Id>
 					<Name><![CDATA[connector37]]></Name>
-					<X>1020</X><Y>250</Y>
+					<X>1070</X><Y>250</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1290,7 +1290,7 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>30</X><Y>0</Y></Point>
+						<Point><X>20</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -1329,7 +1329,7 @@
 				<Connector>
 					<Id>1587483303009</Id>
 					<Name><![CDATA[connector2]]></Name>
-					<X>1070</X><Y>270</Y>
+					<X>1110</X><Y>270</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1356,9 +1356,9 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-120</X><Y>0</Y></Point>
-						<Point><X>-120</X><Y>210</Y></Point>
-						<Point><X>-70</X><Y>210</Y></Point>
+						<Point><X>-160</X><Y>0</Y></Point>
+						<Point><X>-160</X><Y>210</Y></Point>
+						<Point><X>-110</X><Y>210</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -1531,76 +1531,6 @@
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1587484663398</Id>
-					<Name><![CDATA[connector43]]></Name>
-					<X>860</X><Y>190</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[ВРКТ2]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
-						<ClassName><![CDATA[FluidSplit]]></ClassName>
-						<ItemName><![CDATA[out1]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[П1]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
-						<ClassName><![CDATA[MixTank]]></ClassName>
-						<ItemName><![CDATA[in2]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>20</X><Y>0</Y></Point>
-						<Point><X>20</X><Y>-30</Y></Point>
-						<Point><X>80</X><Y>-30</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1587484669951</Id>
-					<Name><![CDATA[connector44]]></Name>
-					<X>860</X><Y>210</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[ВРКТ2]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
-						<ClassName><![CDATA[FluidSplit]]></ClassName>
-						<ItemName><![CDATA[out2]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[П2]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
-						<ClassName><![CDATA[MixTank]]></ClassName>
-						<ItemName><![CDATA[in2]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>220</X><Y>0</Y></Point>
-						<Point><X>220</X><Y>-50</Y></Point>
-						<Point><X>250</X><Y>-50</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
 					<Id>1587484952065</Id>
 					<Name><![CDATA[connector46]]></Name>
 					<X>660</X><Y>270</Y>
@@ -1705,7 +1635,7 @@
 				<Connector>
 					<Id>1588160857160</Id>
 					<Name><![CDATA[connector45]]></Name>
-					<X>1070</X><Y>250</Y>
+					<X>1110</X><Y>250</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1732,11 +1662,11 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>20</X><Y>0</Y></Point>
-						<Point><X>20</X><Y>-30</Y></Point>
-						<Point><X>-470</X><Y>-30</Y></Point>
-						<Point><X>-470</X><Y>20</Y></Point>
-						<Point><X>-460</X><Y>20</Y></Point>
+						<Point><X>0</X><Y>-30</Y></Point>
+						<Point><X>-20</X><Y>-30</Y></Point>
+						<Point><X>-510</X><Y>-30</Y></Point>
+						<Point><X>-510</X><Y>20</Y></Point>
+						<Point><X>-500</X><Y>20</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -3535,7 +3465,7 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-20</X><Y>10</Y></Point>
+						<Point><X>0</X><Y>10</Y></Point>
 						<Point><X>-250</X><Y>10</Y></Point>
 						<Point><X>-250</X><Y>40</Y></Point>
 					</Points>
@@ -3641,6 +3571,142 @@
 						<Point><X>10</X><Y>0</Y></Point>
 						<Point><X>10</X><Y>-40</Y></Point>
 						<Point><X>30</X><Y>-40</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1588495036237</Id>
+					<Name><![CDATA[connector43]]></Name>
+					<X>860</X><Y>190</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[ВРКТ2]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
+						<ClassName><![CDATA[FluidSplit]]></ClassName>
+						<ItemName><![CDATA[out1]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[РКТ7]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
+						<ClassName><![CDATA[Pipeline]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>20</X><Y>0</Y></Point>
+						<Point><X>20</X><Y>-10</Y></Point>
+						<Point><X>40</X><Y>-10</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1588495039159</Id>
+					<Name><![CDATA[connector103]]></Name>
+					<X>950</X><Y>180</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[РКТ7]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
+						<ClassName><![CDATA[Pipeline]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[П1]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
+						<ClassName><![CDATA[MixTank]]></ClassName>
+						<ItemName><![CDATA[in4]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>40</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1588495059214</Id>
+					<Name><![CDATA[connector44]]></Name>
+					<X>860</X><Y>210</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[ВРКТ2]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
+						<ClassName><![CDATA[FluidSplit]]></ClassName>
+						<ItemName><![CDATA[out2]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[РКТ8]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
+						<ClassName><![CDATA[Pipeline]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>40</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1588495064499</Id>
+					<Name><![CDATA[connector104]]></Name>
+					<X>950</X><Y>210</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[РКТ8]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
+						<ClassName><![CDATA[Pipeline]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[П2]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
+						<ClassName><![CDATA[MixTank]]></ClassName>
+						<ItemName><![CDATA[in2]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>130</X><Y>0</Y></Point>
+						<Point><X>130</X><Y>-50</Y></Point>
+						<Point><X>160</X><Y>-50</Y></Point>
 					</Points>
 				</Connector>
 			</Connectors>
@@ -6391,7 +6457,7 @@
 				<EmbeddedObject>
 					<Id>1587482938769</Id>
 					<Name><![CDATA[П1]]></Name>
-					<X>940</X><Y>140</Y>
+					<X>990</X><Y>140</Y>
 					<Label><X>0</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6667,8 +6733,8 @@
 				<EmbeddedObject>
 					<Id>1587483064782</Id>
 					<Name><![CDATA[П1Т1]]></Name>
-					<X>970</X><Y>240</Y>
-					<Label><X>10</X><Y>-5</Y></Label>
+					<X>1020</X><Y>240</Y>
+					<Label><X>0</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -11452,8 +11518,8 @@
 				<EmbeddedObject>
 					<Id>1588491042274</Id>
 					<Name><![CDATA[РП1Т1]]></Name>
-					<X>1050</X><Y>240</Y>
-					<Label><X>-15</X><Y>-5</Y></Label>
+					<X>1090</X><Y>240</Y>
+					<Label><X>-25</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -13350,6 +13416,222 @@
 					<Name><![CDATA[РКТ6]]></Name>
 					<X>400</X><Y>740</Y>
 					<Label><X>5</X><Y>-10</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
+						<ClassName><![CDATA[Pipeline]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
+							<ClassName><![CDATA[Pipeline]]></ClassName>
+							<ItemName><![CDATA[1412618001587]]></ItemName>
+						</GenericParameterSubstituteReference>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[capacity]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[initialAmount]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[limitRate]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[maxRate]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[customPriority]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[priorityOutCustom]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[customInitialBatch]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[initialBatch]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[customInitialBatchColor]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[initialBatchColor]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[pipe]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[showBatchesInFlowchart]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onFull]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onNewBatchIn]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onNewBatchOut]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onRateChange]]></Name>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
+					<XCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</XCode>
+					<YCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</YCode>
+					<ZCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ZCode>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LatitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LatitudeCode>
+					<LongitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LongitudeCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1588495011224</Id>
+					<Name><![CDATA[РКТ7]]></Name>
+					<X>900</X><Y>170</Y>
+					<Label><X>5</X><Y>-5</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
+						<ClassName><![CDATA[Pipeline]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
+							<ClassName><![CDATA[Pipeline]]></ClassName>
+							<ItemName><![CDATA[1412618001587]]></ItemName>
+						</GenericParameterSubstituteReference>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[capacity]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[initialAmount]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[limitRate]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[maxRate]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[customPriority]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[priorityOutCustom]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[customInitialBatch]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[initialBatch]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[customInitialBatchColor]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[initialBatchColor]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[pipe]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[showBatchesInFlowchart]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onFull]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onNewBatchIn]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onNewBatchOut]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onRateChange]]></Name>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
+					<XCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</XCode>
+					<YCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</YCode>
+					<ZCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ZCode>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LatitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LatitudeCode>
+					<LongitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LongitudeCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1588495047363</Id>
+					<Name><![CDATA[РКТ8]]></Name>
+					<X>900</X><Y>200</Y>
+					<Label><X>5</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
