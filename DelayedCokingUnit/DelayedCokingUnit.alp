@@ -8663,7 +8663,7 @@
 						<Parameter>
 							<Name><![CDATA[pipe]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[РКТ7_vis]]></Code>
+								<Code><![CDATA[РКТ6_vis]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -8767,6 +8767,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[storageTank]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[АВО1_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -8869,6 +8872,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[storageTank]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[ВХ_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -8971,6 +8977,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[storageTank]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[ВГЗ_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -9079,6 +9088,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pipe]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[ВГЗТ1_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -9367,6 +9379,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pipe]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[ВГЗТ2_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -9475,6 +9490,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pipe]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[ВГЗТ3_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -9614,6 +9632,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[storageTank]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[ТК1_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -9722,6 +9743,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pipe]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[ВГЗТ4_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -9830,6 +9854,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pipe]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[ВГЗТ5_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -9969,6 +9996,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[storageTank]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[ТК2_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -10071,6 +10101,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[storageTank]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[ОК1_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -10173,6 +10206,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[storageTank]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[ОК2_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -10281,6 +10317,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pipe]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[Т1ОК1_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -10389,6 +10428,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pipe]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[Т1ОК2_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -10497,6 +10539,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pipe]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[Т2ОК1_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -10605,6 +10650,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pipe]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[Т3ОК1_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -10713,6 +10761,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pipe]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[Т2ОК2_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -10821,6 +10872,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pipe]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[Т3ОК2_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -11103,6 +11157,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[storageTank]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[АВО2_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -11205,6 +11262,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[storageTank]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[АВО3_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -13796,7 +13856,7 @@
 						<Parameter>
 							<Name><![CDATA[pipe]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[РКТ6_vis]]></Code>
+								<Code><![CDATA[РКТ7_vis]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -13906,6 +13966,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pipe]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[РКТ2_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -14014,6 +14077,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pipe]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[РКТ3_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -14449,6 +14515,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pipe]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[ТН1ВГЗ_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -14557,6 +14626,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pipe]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[ТН2ВГЗ_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -14845,6 +14917,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pipe]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[РКТ9_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -14953,6 +15028,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pipe]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[РКТ10_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -15061,6 +15139,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pipe]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[РКТ8_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -15169,6 +15250,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pipe]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[Т1АВО1_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -15277,6 +15361,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pipe]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[Т1ВХ_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -15385,6 +15472,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pipe]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[Т1ТК1_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -15493,6 +15583,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pipe]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[Т1ТК2_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
