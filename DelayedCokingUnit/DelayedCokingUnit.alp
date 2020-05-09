@@ -4195,6 +4195,10 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[rate]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[100]]></Code>
+								<Unit Class="FlowRateUnits"><![CDATA[CUBIC_METER_PER_SECOND]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[infiniteCapacity]]></Name>
@@ -5134,9 +5138,16 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[limitRateOut]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[maxRateOut]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[10]]></Code>
+								<Unit Class="FlowRateUnits"><![CDATA[CUBIC_METER_PER_SECOND]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[modeOutputBatch]]></Name>
@@ -5152,6 +5163,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[storageTank]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[КК1_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -5273,9 +5287,16 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[limitRateOut]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[maxRateOut]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[10]]></Code>
+								<Unit Class="FlowRateUnits"><![CDATA[CUBIC_METER_PER_SECOND]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[modeOutputBatch]]></Name>
@@ -5291,6 +5312,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[storageTank]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[КК2_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -5412,9 +5436,16 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[limitRateOut]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[maxRateOut]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[10]]></Code>
+								<Unit Class="FlowRateUnits"><![CDATA[CUBIC_METER_PER_SECOND]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[modeOutputBatch]]></Name>
@@ -5430,6 +5461,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[storageTank]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[КК3_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -5551,9 +5585,16 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[limitRateOut]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[maxRateOut]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[10]]></Code>
+								<Unit Class="FlowRateUnits"><![CDATA[CUBIC_METER_PER_SECOND]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[modeOutputBatch]]></Name>
@@ -5569,6 +5610,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[storageTank]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[КК4_vis]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -7039,7 +7083,8 @@
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[10]]></Code>
+								<Code><![CDATA[0
+]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -7052,7 +7097,7 @@
 						<Parameter>
 							<Name><![CDATA[maxRateOut]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[10]]></Code>
+								<Code><![CDATA[100]]></Code>
 								<Unit Class="FlowRateUnits"><![CDATA[CUBIC_METER_PER_SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -7206,7 +7251,7 @@
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[10]]></Code>
+								<Code><![CDATA[0]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -7219,7 +7264,7 @@
 						<Parameter>
 							<Name><![CDATA[maxRateOut]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[10]]></Code>
+								<Code><![CDATA[100]]></Code>
 								<Unit Class="FlowRateUnits"><![CDATA[CUBIC_METER_PER_SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -9614,9 +9659,17 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[limitRateOut]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[maxRateOut]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[10
+]]></Code>
+								<Unit Class="FlowRateUnits"><![CDATA[CUBIC_METER_PER_SECOND]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[modeOutputBatch]]></Name>
@@ -9978,9 +10031,17 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[limitRateOut]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[maxRateOut]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[10
+]]></Code>
+								<Unit Class="FlowRateUnits"><![CDATA[CUBIC_METER_PER_SECOND]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[modeOutputBatch]]></Name>
@@ -12217,6 +12278,9 @@
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[mode]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.SPLITMERGE_PROPORTIONAL]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[fraction1]]></Name>
@@ -12427,6 +12491,9 @@
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[mode]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.SPLITMERGE_PROPORTIONAL]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[fraction1]]></Name>
@@ -12523,6 +12590,9 @@
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[mode]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.SPLITMERGE_PROPORTIONAL]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[fraction1]]></Name>
@@ -12619,6 +12689,9 @@
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[mode]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.SPLITMERGE_PROPORTIONAL]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[fraction1]]></Name>
@@ -12715,6 +12788,9 @@
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[mode]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.SPLITMERGE_PROPORTIONAL]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[fraction1]]></Name>
@@ -12829,6 +12905,9 @@
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[mode]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.SPLITMERGE_PROPORTIONAL]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[fraction1]]></Name>
@@ -12925,6 +13004,9 @@
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[mode]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.SPLITMERGE_PROPORTIONAL]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[fraction1]]></Name>
@@ -13039,6 +13121,9 @@
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[mode]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.SPLITMERGE_PROPORTIONAL]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[fraction1]]></Name>
@@ -13135,6 +13220,9 @@
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[mode]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.SPLITMERGE_PROPORTIONAL]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[fraction1]]></Name>
@@ -13249,6 +13337,9 @@
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[mode]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.SPLITMERGE_PROPORTIONAL]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[fraction1]]></Name>
@@ -13345,6 +13436,9 @@
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[mode]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.SPLITMERGE_PROPORTIONAL]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[fraction1]]></Name>
@@ -13441,6 +13535,9 @@
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[mode]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.SPLITMERGE_PROPORTIONAL]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[fraction1]]></Name>
@@ -13537,6 +13634,9 @@
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[mode]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.SPLITMERGE_PROPORTIONAL]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[fraction1]]></Name>
@@ -13633,6 +13733,9 @@
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[mode]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.SPLITMERGE_PROPORTIONAL]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[fraction1]]></Name>
@@ -13729,6 +13832,9 @@
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[mode]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.SPLITMERGE_PROPORTIONAL]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[fraction1]]></Name>
@@ -14707,6 +14813,9 @@
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[mode]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.SPLITMERGE_PROPORTIONAL]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[fraction1]]></Name>
