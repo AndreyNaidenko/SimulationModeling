@@ -4,13 +4,13 @@
 	         AnyLogic Project File 
 *************************************************	         
 -->
-<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.5.2.202001241833" AlpVersion="8.5.1">
+<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.5.2.202001241926" AlpVersion="8.5.1">
 <Model>
 	<Id>1585385365501</Id>
 	<Name><![CDATA[DelayedCokingUnit]]></Name>
 	<EngineVersion>6</EngineVersion>
 	<JavaPackageName><![CDATA[delayedcokingunit]]></JavaPackageName>
-	<ModelTimeUnit><![CDATA[Second]]></ModelTimeUnit>
+	<ModelTimeUnit><![CDATA[Minute]]></ModelTimeUnit>
 	<ActiveObjectClasses>
 		<!--   =========   Active Object Class   ========  -->
 		<ActiveObjectClass>
@@ -84,11 +84,11 @@
 					<OccurrenceDate>1585468800000</OccurrenceDate>
 					<OccurrenceTime Class="CodeUnitValue">
 						<Code><![CDATA[0]]></Code>
-						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
 					</OccurrenceTime>
 					<RecurrenceCode Class="CodeUnitValue">
 						<Code><![CDATA[1]]></Code>
-						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
 					</RecurrenceCode>
 			</DatasetsCreationProperties>
 			<ScaleRuler>
@@ -3782,7 +3782,7 @@
 				<Connector>
 					<Id>1589043107491</Id>
 					<Name><![CDATA[connector119]]></Name>
-					<X>40</X><Y>370</Y>
+					<X>30</X><Y>370</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3809,7 +3809,7 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>70</X><Y>0</Y></Point>
+						<Point><X>80</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -16156,6 +16156,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[infiniteCapacity]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[false]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[initialAmount]]></Name>
@@ -16236,7 +16239,7 @@
 				<EmbeddedObject>
 					<Id>1589043074708</Id>
 					<Name><![CDATA[С2]]></Name>
-					<X>10</X><Y>360</Y>
+					<X>0</X><Y>360</Y>
 					<Label><X>10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17194,12 +17197,15 @@
 						<Parameter>
 							<Name><![CDATA[openRate]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[0]]></Code>
+								<Code><![CDATA[5]]></Code>
 								<Unit Class="FlowRateUnits"><![CDATA[CUBIC_METER_PER_SECOND]]></Unit>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[closed]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[showBatchesInFlowchart]]></Name>
@@ -18767,6 +18773,36 @@
 					<Diameter>70</Diameter>				
 					<Height>100</Height>				
 				</StorageTank>
+				<Text>
+					<Id>1590945692757</Id>
+					<Name><![CDATA[text2]]></Name>
+					<X>-600</X><Y>120</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Мысли
+1. Исходное сырье поступает непрерывно, поэтому нужно 
+заранее заполнить трубы.
+2. В 2-х камерах КК1 и КК3 уже лежит кокс. Нужно узнать
+    объем камер, чтобы понять, сколько кокса заложить.
+3. В 2-х других камерах КК2 и КК4 уже на протяжении часа
+    поступало сырье. Выяснить, сколько за час поступит
+    сырья в камеру? Т.е. какова скорость подачи сырья в час?
+4. Будем следовать циклу из статьи, поэтому нужно
+    удалить проход исходного сырья в РК.]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>18</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
 			</Presentation>
 
 				</Level>
