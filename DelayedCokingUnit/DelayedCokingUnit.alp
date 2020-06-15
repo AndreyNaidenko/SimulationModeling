@@ -17,7 +17,9 @@
 			<Id>1585385365507</Id>
 			<Name><![CDATA[Main]]></Name>
 			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
-			<StartupCode><![CDATA[function();]]></StartupCode>
+			<StartupCode><![CDATA[getEngine().pause();
+function();
+]]></StartupCode>
 			<Generic>false</Generic>
 			<GenericParameter>
 				<Id>1585385365505</Id>
@@ -44,6 +46,7 @@
 					<Code><![CDATA[10]]></Code>
 					<Unit Class="SpeedUnits"><![CDATA[MPS]]></Unit>
 				</VelocityCode>
+				<BeforeStepCode><![CDATA[getEngine().pause();]]></BeforeStepCode>
 				<PhysicalLength Class="CodeUnitValue">
 					<Code><![CDATA[1]]></Code>
 					<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
@@ -114,7 +117,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1591210143977</Id>
 					<Name><![CDATA[диаметр]]></Name>
-					<X>-1050</X><Y>510</Y>
+					<X>-1530</X><Y>550</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -127,7 +130,7 @@
 					<Id>1591210722580</Id>
 					<Name><![CDATA[объем_сырья]]></Name>
 					<Description><![CDATA[ объем сырья, поступающего в камеры]]></Description>
-					<X>-1050</X><Y>620</Y>
+					<X>-1530</X><Y>660</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -176,7 +179,7 @@
 					<Id>1591211178001</Id>
 					<Name><![CDATA[количество_в_п]]></Name>
 					<Description><![CDATA[количество сырья]]></Description>
-					<X>-1050</X><Y>670</Y>
+					<X>-1530</X><Y>710</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -192,7 +195,7 @@
 					<Id>1591211198135</Id>
 					<Name><![CDATA[Gvp]]></Name>
 					<Description><![CDATA[количество водяного пара, поступающего из печи]]></Description>
-					<X>-410</X><Y>710</Y>
+					<X>-890</X><Y>750</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -207,7 +210,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1591211244196</Id>
 					<Name><![CDATA[м_масса_сырья]]></Name>
-					<X>-1050</X><Y>560</Y>
+					<X>-1530</X><Y>600</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -236,7 +239,7 @@
 					<Id>1591211310434</Id>
 					<Name><![CDATA[объем_кокса_с]]></Name>
 					<Description><![CDATA[Объем кокса образовавшегося в камере за 1 сутки]]></Description>
-					<X>-1050</X><Y>890</Y>
+					<X>-1530</X><Y>930</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -266,7 +269,7 @@
 					<Name><![CDATA[реакционный_объем]]></Name>
 					<Description><![CDATA[Реакционный объем (м3
 ) камеры]]></Description>
-					<X>-1050</X><Y>700</Y>
+					<X>-1530</X><Y>740</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -280,7 +283,7 @@
 					<Name><![CDATA[объем_сырья1]]></Name>
 					<Description><![CDATA[объем сырья, поступающего в камеры, м3
 /ч (определяется как соотношение производительности камеры по сырью /плотность сырья]]></Description>
-					<X>-500</X><Y>620</Y>
+					<X>-980</X><Y>660</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -294,7 +297,7 @@
 					<Name><![CDATA[объем_кокса_ч]]></Name>
 					<Description><![CDATA[объем кокса, образующегося за 1 час,
 (м3/ч)]]></Description>
-					<X>-1050</X><Y>850</Y>
+					<X>-1530</X><Y>890</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -307,7 +310,7 @@
 					<Id>1591211550354</Id>
 					<Name><![CDATA[прирост_высоты_ч]]></Name>
 					<Description><![CDATA[Приращение высоты коксового слоя в камере за 1 час]]></Description>
-					<X>-1050</X><Y>800</Y>
+					<X>-1530</X><Y>840</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -321,7 +324,7 @@
 					<Name><![CDATA[площадь_п_с]]></Name>
 					<Description><![CDATA[площадь поперечного сечения коксовой камеры, м2
  ]]></Description>
-					<X>-1050</X><Y>750</Y>
+					<X>-1530</X><Y>790</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -334,7 +337,7 @@
 					<Id>1591211648338</Id>
 					<Name><![CDATA[высота_к_с_с]]></Name>
 					<Description><![CDATA[высота коксового слоя в камере за период ее работы, т.е. за сутки]]></Description>
-					<X>-1050</X><Y>950</Y>
+					<X>-1530</X><Y>990</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -347,7 +350,7 @@
 					<Id>1591211883713</Id>
 					<Name><![CDATA[продолжительность]]></Name>
 					<Description><![CDATA[общая продолжительность цикла коксования]]></Description>
-					<X>-500</X><Y>550</Y>
+					<X>-980</X><Y>590</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -434,7 +437,7 @@
 					<Id>1591381532104</Id>
 					<Name><![CDATA[высота_камеры]]></Name>
 					<Description><![CDATA[высота коксового слоя в камере за период ее работы, т.е. за сутки]]></Description>
-					<X>-500</X><Y>750</Y>
+					<X>-980</X><Y>790</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -447,7 +450,7 @@
 					<Id>1591381695192</Id>
 					<Name><![CDATA[скорость_заполнения_коксом]]></Name>
 					<Description><![CDATA[высота коксового слоя в камере за период ее работы, т.е. за сутки]]></Description>
-					<X>-500</X><Y>800</Y>
+					<X>-980</X><Y>840</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -459,7 +462,7 @@
 				<Variable Class="Parameter">
 					<Id>1592167236216</Id>
 					<Name><![CDATA[V]]></Name>
-					<X>-110</X><Y>140</Y>
+					<X>430</X><Y>1580</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -483,7 +486,7 @@
 				<Variable Class="Parameter">
 					<Id>1592226454329</Id>
 					<Name><![CDATA[КК_номер]]></Name>
-					<X>-120</X><Y>190</Y>
+					<X>420</X><Y>1630</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -509,7 +512,7 @@
 				<Connector>
 					<Id>1588663372454</Id>
 					<Name><![CDATA[connector]]></Name>
-					<X>90</X><Y>70</Y>
+					<X>630</X><Y>1510</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -542,7 +545,7 @@
 				<Connector>
 					<Id>1588663381107</Id>
 					<Name><![CDATA[connector1]]></Name>
-					<X>180</X><Y>70</Y>
+					<X>720</X><Y>1510</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -575,7 +578,7 @@
 				<Connector>
 					<Id>1588663385243</Id>
 					<Name><![CDATA[connector2]]></Name>
-					<X>240</X><Y>70</Y>
+					<X>780</X><Y>1510</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -608,7 +611,7 @@
 				<Connector>
 					<Id>1588663389744</Id>
 					<Name><![CDATA[connector3]]></Name>
-					<X>320</X><Y>70</Y>
+					<X>860</X><Y>1510</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -641,7 +644,7 @@
 				<Connector>
 					<Id>1588663449691</Id>
 					<Name><![CDATA[connector4]]></Name>
-					<X>370</X><Y>70</Y>
+					<X>910</X><Y>1510</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -675,7 +678,7 @@
 				<Connector>
 					<Id>1588663453944</Id>
 					<Name><![CDATA[connector5]]></Name>
-					<X>370</X><Y>90</Y>
+					<X>910</X><Y>1530</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -709,7 +712,7 @@
 				<Connector>
 					<Id>1588663456893</Id>
 					<Name><![CDATA[connector6]]></Name>
-					<X>450</X><Y>30</Y>
+					<X>990</X><Y>1470</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -742,7 +745,7 @@
 				<Connector>
 					<Id>1588663459463</Id>
 					<Name><![CDATA[connector7]]></Name>
-					<X>450</X><Y>100</Y>
+					<X>990</X><Y>1540</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -775,7 +778,7 @@
 				<Connector>
 					<Id>1588663467287</Id>
 					<Name><![CDATA[connector9]]></Name>
-					<X>530</X><Y>150</Y>
+					<X>1070</X><Y>1590</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -808,7 +811,7 @@
 				<Connector>
 					<Id>1588663795695</Id>
 					<Name><![CDATA[connector21]]></Name>
-					<X>700</X><Y>80</Y>
+					<X>1240</X><Y>1520</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -843,7 +846,7 @@
 				<Connector>
 					<Id>1588663799094</Id>
 					<Name><![CDATA[connector22]]></Name>
-					<X>700</X><Y>100</Y>
+					<X>1240</X><Y>1540</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -876,7 +879,7 @@
 				<Connector>
 					<Id>1588663803624</Id>
 					<Name><![CDATA[connector23]]></Name>
-					<X>700</X><Y>150</Y>
+					<X>1240</X><Y>1590</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -911,7 +914,7 @@
 				<Connector>
 					<Id>1588663805978</Id>
 					<Name><![CDATA[connector24]]></Name>
-					<X>700</X><Y>170</Y>
+					<X>1240</X><Y>1610</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -944,7 +947,7 @@
 				<Connector>
 					<Id>1588664305142</Id>
 					<Name><![CDATA[connector25]]></Name>
-					<X>140</X><Y>320</Y>
+					<X>680</X><Y>1760</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -977,7 +980,7 @@
 				<Connector>
 					<Id>1588664682171</Id>
 					<Name><![CDATA[connector38]]></Name>
-					<X>380</X><Y>600</Y>
+					<X>920</X><Y>2040</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1012,7 +1015,7 @@
 				<Connector>
 					<Id>1588664691437</Id>
 					<Name><![CDATA[connector39]]></Name>
-					<X>380</X><Y>510</Y>
+					<X>920</X><Y>1950</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1047,7 +1050,7 @@
 				<Connector>
 					<Id>1588664705189</Id>
 					<Name><![CDATA[connector40]]></Name>
-					<X>380</X><Y>410</Y>
+					<X>920</X><Y>1850</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1082,7 +1085,7 @@
 				<Connector>
 					<Id>1588664710936</Id>
 					<Name><![CDATA[connector41]]></Name>
-					<X>380</X><Y>320</Y>
+					<X>920</X><Y>1760</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1117,7 +1120,7 @@
 				<Connector>
 					<Id>1588664793965</Id>
 					<Name><![CDATA[connector34]]></Name>
-					<X>280</X><Y>340</Y>
+					<X>820</X><Y>1780</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1150,7 +1153,7 @@
 				<Connector>
 					<Id>1588664798008</Id>
 					<Name><![CDATA[connector42]]></Name>
-					<X>290</X><Y>430</Y>
+					<X>830</X><Y>1870</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1183,7 +1186,7 @@
 				<Connector>
 					<Id>1588664813080</Id>
 					<Name><![CDATA[connector43]]></Name>
-					<X>290</X><Y>530</Y>
+					<X>830</X><Y>1970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1216,7 +1219,7 @@
 				<Connector>
 					<Id>1588664818262</Id>
 					<Name><![CDATA[connector44]]></Name>
-					<X>290</X><Y>620</Y>
+					<X>830</X><Y>2060</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1249,7 +1252,7 @@
 				<Connector>
 					<Id>1588664832665</Id>
 					<Name><![CDATA[connector45]]></Name>
-					<X>560</X><Y>340</Y>
+					<X>1100</X><Y>1780</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1284,7 +1287,7 @@
 				<Connector>
 					<Id>1588664836578</Id>
 					<Name><![CDATA[connector46]]></Name>
-					<X>560</X><Y>430</Y>
+					<X>1100</X><Y>1870</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1319,7 +1322,7 @@
 				<Connector>
 					<Id>1588664859054</Id>
 					<Name><![CDATA[connector48]]></Name>
-					<X>560</X><Y>620</Y>
+					<X>1100</X><Y>2060</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1354,7 +1357,7 @@
 				<Connector>
 					<Id>1588664865967</Id>
 					<Name><![CDATA[connector47]]></Name>
-					<X>560</X><Y>530</Y>
+					<X>1100</X><Y>1970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1389,7 +1392,7 @@
 				<Connector>
 					<Id>1588664885366</Id>
 					<Name><![CDATA[connector49]]></Name>
-					<X>630</X><Y>380</Y>
+					<X>1170</X><Y>1820</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1422,7 +1425,7 @@
 				<Connector>
 					<Id>1588664890141</Id>
 					<Name><![CDATA[connector50]]></Name>
-					<X>630</X><Y>570</Y>
+					<X>1170</X><Y>2010</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1455,7 +1458,7 @@
 				<Connector>
 					<Id>1588664896886</Id>
 					<Name><![CDATA[connector51]]></Name>
-					<X>720</X><Y>570</Y>
+					<X>1260</X><Y>2010</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1490,7 +1493,7 @@
 				<Connector>
 					<Id>1588664910570</Id>
 					<Name><![CDATA[connector52]]></Name>
-					<X>720</X><Y>380</Y>
+					<X>1260</X><Y>1820</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1525,7 +1528,7 @@
 				<Connector>
 					<Id>1588664917319</Id>
 					<Name><![CDATA[connector53]]></Name>
-					<X>790</X><Y>460</Y>
+					<X>1330</X><Y>1900</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1558,7 +1561,7 @@
 				<Connector>
 					<Id>1588667830278</Id>
 					<Name><![CDATA[connector54]]></Name>
-					<X>150</X><Y>860</Y>
+					<X>690</X><Y>2300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1591,7 +1594,7 @@
 				<Connector>
 					<Id>1588667846943</Id>
 					<Name><![CDATA[connector57]]></Name>
-					<X>280</X><Y>880</Y>
+					<X>820</X><Y>2320</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1626,7 +1629,7 @@
 				<Connector>
 					<Id>1588667935897</Id>
 					<Name><![CDATA[connector67]]></Name>
-					<X>520</X><Y>840</Y>
+					<X>1060</X><Y>2280</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1661,7 +1664,7 @@
 				<Connector>
 					<Id>1588667942216</Id>
 					<Name><![CDATA[connector68]]></Name>
-					<X>520</X><Y>890</Y>
+					<X>1060</X><Y>2330</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1696,7 +1699,7 @@
 				<Connector>
 					<Id>1588667975193</Id>
 					<Name><![CDATA[connector71]]></Name>
-					<X>610</X><Y>880</Y>
+					<X>1150</X><Y>2320</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1733,7 +1736,7 @@
 				<Connector>
 					<Id>1588667982303</Id>
 					<Name><![CDATA[connector72]]></Name>
-					<X>680</X><Y>880</Y>
+					<X>1220</X><Y>2320</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1767,7 +1770,7 @@
 				<Connector>
 					<Id>1588668077918</Id>
 					<Name><![CDATA[connector75]]></Name>
-					<X>820</X><Y>920</Y>
+					<X>1360</X><Y>2360</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1802,7 +1805,7 @@
 				<Connector>
 					<Id>1588668081666</Id>
 					<Name><![CDATA[connector76]]></Name>
-					<X>820</X><Y>860</Y>
+					<X>1360</X><Y>2300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1837,7 +1840,7 @@
 				<Connector>
 					<Id>1588668089756</Id>
 					<Name><![CDATA[connector78]]></Name>
-					<X>770</X><Y>900</Y>
+					<X>1310</X><Y>2340</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1870,7 +1873,7 @@
 				<Connector>
 					<Id>1588668098743</Id>
 					<Name><![CDATA[connector79]]></Name>
-					<X>920</X><Y>850</Y>
+					<X>1460</X><Y>2290</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1903,7 +1906,7 @@
 				<Connector>
 					<Id>1588668101791</Id>
 					<Name><![CDATA[connector80]]></Name>
-					<X>920</X><Y>940</Y>
+					<X>1460</X><Y>2380</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1936,7 +1939,7 @@
 				<Connector>
 					<Id>1588668106238</Id>
 					<Name><![CDATA[connector81]]></Name>
-					<X>980</X><Y>850</Y>
+					<X>1520</X><Y>2290</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1969,7 +1972,7 @@
 				<Connector>
 					<Id>1588668108505</Id>
 					<Name><![CDATA[connector82]]></Name>
-					<X>980</X><Y>940</Y>
+					<X>1520</X><Y>2380</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2002,7 +2005,7 @@
 				<Connector>
 					<Id>1588668110913</Id>
 					<Name><![CDATA[connector83]]></Name>
-					<X>1060</X><Y>940</Y>
+					<X>1600</X><Y>2380</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2035,7 +2038,7 @@
 				<Connector>
 					<Id>1588668113883</Id>
 					<Name><![CDATA[connector84]]></Name>
-					<X>1060</X><Y>850</Y>
+					<X>1600</X><Y>2290</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2068,7 +2071,7 @@
 				<Connector>
 					<Id>1588668144382</Id>
 					<Name><![CDATA[connector87]]></Name>
-					<X>750</X><Y>790</Y>
+					<X>1290</X><Y>2230</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2103,7 +2106,7 @@
 				<Connector>
 					<Id>1588668177441</Id>
 					<Name><![CDATA[connector88]]></Name>
-					<X>830</X><Y>760</Y>
+					<X>1370</X><Y>2200</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2138,7 +2141,7 @@
 				<Connector>
 					<Id>1588668181711</Id>
 					<Name><![CDATA[connector89]]></Name>
-					<X>900</X><Y>730</Y>
+					<X>1440</X><Y>2170</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2173,7 +2176,7 @@
 				<Connector>
 					<Id>1588668183775</Id>
 					<Name><![CDATA[connector90]]></Name>
-					<X>900</X><Y>750</Y>
+					<X>1440</X><Y>2190</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2206,7 +2209,7 @@
 				<Connector>
 					<Id>1588668221153</Id>
 					<Name><![CDATA[connector91]]></Name>
-					<X>990</X><Y>710</Y>
+					<X>1530</X><Y>2150</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2239,7 +2242,7 @@
 				<Connector>
 					<Id>1588668226450</Id>
 					<Name><![CDATA[connector92]]></Name>
-					<X>1050</X><Y>710</Y>
+					<X>1590</X><Y>2150</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2272,7 +2275,7 @@
 				<Connector>
 					<Id>1588668358830</Id>
 					<Name><![CDATA[connector93]]></Name>
-					<X>1200</X><Y>770</Y>
+					<X>1740</X><Y>2210</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2305,7 +2308,7 @@
 				<Connector>
 					<Id>1588668363096</Id>
 					<Name><![CDATA[connector94]]></Name>
-					<X>1200</X><Y>750</Y>
+					<X>1740</X><Y>2190</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2340,7 +2343,7 @@
 				<Connector>
 					<Id>1588668367350</Id>
 					<Name><![CDATA[connector95]]></Name>
-					<X>1140</X><Y>750</Y>
+					<X>1680</X><Y>2190</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2373,7 +2376,7 @@
 				<Connector>
 					<Id>1588668369990</Id>
 					<Name><![CDATA[connector96]]></Name>
-					<X>1050</X><Y>750</Y>
+					<X>1590</X><Y>2190</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2406,7 +2409,7 @@
 				<Connector>
 					<Id>1588668374918</Id>
 					<Name><![CDATA[connector97]]></Name>
-					<X>990</X><Y>750</Y>
+					<X>1530</X><Y>2190</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2439,7 +2442,7 @@
 				<Connector>
 					<Id>1588668641581</Id>
 					<Name><![CDATA[connector98]]></Name>
-					<X>820</X><Y>60</Y>
+					<X>1360</X><Y>1500</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2476,7 +2479,7 @@
 				<Connector>
 					<Id>1588668660230</Id>
 					<Name><![CDATA[connector99]]></Name>
-					<X>820</X><Y>100</Y>
+					<X>1360</X><Y>1540</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2513,7 +2516,7 @@
 				<Connector>
 					<Id>1588668758586</Id>
 					<Name><![CDATA[connector101]]></Name>
-					<X>820</X><Y>140</Y>
+					<X>1360</X><Y>1580</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2550,7 +2553,7 @@
 				<Connector>
 					<Id>1588668782108</Id>
 					<Name><![CDATA[connector102]]></Name>
-					<X>820</X><Y>170</Y>
+					<X>1360</X><Y>1610</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2587,7 +2590,7 @@
 				<Connector>
 					<Id>1588669120165</Id>
 					<Name><![CDATA[connector105]]></Name>
-					<X>880</X><Y>460</Y>
+					<X>1420</X><Y>1900</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2625,7 +2628,7 @@
 				<Connector>
 					<Id>1588669700934</Id>
 					<Name><![CDATA[connector110]]></Name>
-					<X>1300</X><Y>740</Y>
+					<X>1840</X><Y>2180</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2663,7 +2666,7 @@
 				<Connector>
 					<Id>1588669924964</Id>
 					<Name><![CDATA[connector74]]></Name>
-					<X>820</X><Y>900</Y>
+					<X>1360</X><Y>2340</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2698,7 +2701,7 @@
 				<Connector>
 					<Id>1588670057418</Id>
 					<Name><![CDATA[connector108]]></Name>
-					<X>920</X><Y>880</Y>
+					<X>1460</X><Y>2320</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2736,7 +2739,7 @@
 				<Connector>
 					<Id>1588670136400</Id>
 					<Name><![CDATA[connector109]]></Name>
-					<X>920</X><Y>790</Y>
+					<X>1460</X><Y>2230</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2773,7 +2776,7 @@
 				<Connector>
 					<Id>1588701857531</Id>
 					<Name><![CDATA[connector111]]></Name>
-					<X>560</X><Y>80</Y>
+					<X>1100</X><Y>1520</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2806,7 +2809,7 @@
 				<Connector>
 					<Id>1588766882122</Id>
 					<Name><![CDATA[connector65]]></Name>
-					<X>570</X><Y>790</Y>
+					<X>1110</X><Y>2230</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2840,7 +2843,7 @@
 				<Connector>
 					<Id>1588766885389</Id>
 					<Name><![CDATA[connector66]]></Name>
-					<X>630</X><Y>710</Y>
+					<X>1170</X><Y>2150</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2873,7 +2876,7 @@
 				<Connector>
 					<Id>1588766894946</Id>
 					<Name><![CDATA[connector114]]></Name>
-					<X>660</X><Y>790</Y>
+					<X>1200</X><Y>2230</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2907,7 +2910,7 @@
 				<Connector>
 					<Id>1588766902998</Id>
 					<Name><![CDATA[connector115]]></Name>
-					<X>720</X><Y>710</Y>
+					<X>1260</X><Y>2150</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2940,7 +2943,7 @@
 				<Connector>
 					<Id>1588766948978</Id>
 					<Name><![CDATA[connector85]]></Name>
-					<X>1140</X><Y>860</Y>
+					<X>1680</X><Y>2300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2973,7 +2976,7 @@
 				<Connector>
 					<Id>1588766953670</Id>
 					<Name><![CDATA[connector116]]></Name>
-					<X>1210</X><Y>860</Y>
+					<X>1750</X><Y>2300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3008,7 +3011,7 @@
 				<Connector>
 					<Id>1588766977086</Id>
 					<Name><![CDATA[connector86]]></Name>
-					<X>1140</X><Y>950</Y>
+					<X>1680</X><Y>2390</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3041,7 +3044,7 @@
 				<Connector>
 					<Id>1588766983421</Id>
 					<Name><![CDATA[connector117]]></Name>
-					<X>1210</X><Y>950</Y>
+					<X>1750</X><Y>2390</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3076,7 +3079,7 @@
 				<Connector>
 					<Id>1589042470387</Id>
 					<Name><![CDATA[connector10]]></Name>
-					<X>610</X><Y>80</Y>
+					<X>1150</X><Y>1520</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3109,7 +3112,7 @@
 				<Connector>
 					<Id>1589042508141</Id>
 					<Name><![CDATA[connector11]]></Name>
-					<X>610</X><Y>150</Y>
+					<X>1150</X><Y>1590</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3142,7 +3145,7 @@
 				<Connector>
 					<Id>1589043101288</Id>
 					<Name><![CDATA[connector118]]></Name>
-					<X>-100</X><Y>280</Y>
+					<X>440</X><Y>1720</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3169,13 +3172,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>80</X><Y>0</Y></Point>
+						<Point><X>210</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1589043107491</Id>
 					<Name><![CDATA[connector119]]></Name>
-					<X>-100</X><Y>470</Y>
+					<X>440</X><Y>1910</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3208,7 +3211,7 @@
 				<Connector>
 					<Id>1589175627138</Id>
 					<Name><![CDATA[connector121]]></Name>
-					<X>-210</X><Y>320</Y>
+					<X>330</X><Y>1760</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3242,7 +3245,7 @@
 				<Connector>
 					<Id>1589175686210</Id>
 					<Name><![CDATA[connector122]]></Name>
-					<X>-190</X><Y>320</Y>
+					<X>350</X><Y>1760</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3270,13 +3273,13 @@
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>0</X><Y>-30</Y></Point>
-						<Point><X>170</X><Y>-30</Y></Point>
+						<Point><X>300</X><Y>-30</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1589175689734</Id>
 					<Name><![CDATA[connector123]]></Name>
-					<X>-190</X><Y>340</Y>
+					<X>350</X><Y>1780</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3304,13 +3307,13 @@
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>0</X><Y>40</Y></Point>
-						<Point><X>170</X><Y>40</Y></Point>
+						<Point><X>300</X><Y>40</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1589175697814</Id>
 					<Name><![CDATA[connector124]]></Name>
-					<X>-210</X><Y>520</Y>
+					<X>330</X><Y>1960</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3344,7 +3347,7 @@
 				<Connector>
 					<Id>1589175704114</Id>
 					<Name><![CDATA[connector125]]></Name>
-					<X>-190</X><Y>520</Y>
+					<X>350</X><Y>1960</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3372,13 +3375,13 @@
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>0</X><Y>-40</Y></Point>
-						<Point><X>170</X><Y>-40</Y></Point>
+						<Point><X>300</X><Y>-40</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1589175711014</Id>
 					<Name><![CDATA[connector126]]></Name>
-					<X>-190</X><Y>540</Y>
+					<X>350</X><Y>1980</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3406,13 +3409,13 @@
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>0</X><Y>20</Y></Point>
-						<Point><X>170</X><Y>20</Y></Point>
+						<Point><X>300</X><Y>20</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1589175813954</Id>
 					<Name><![CDATA[connector29]]></Name>
-					<X>240</X><Y>320</Y>
+					<X>780</X><Y>1760</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3445,7 +3448,7 @@
 				<Connector>
 					<Id>1589175813955</Id>
 					<Name><![CDATA[connector33]]></Name>
-					<X>280</X><Y>320</Y>
+					<X>820</X><Y>1760</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3478,7 +3481,7 @@
 				<Connector>
 					<Id>1589175914284</Id>
 					<Name><![CDATA[connector30]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>540</X><Y>1440</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3511,7 +3514,7 @@
 				<Connector>
 					<Id>1589175914285</Id>
 					<Name><![CDATA[connector35]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>540</X><Y>1440</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3544,7 +3547,7 @@
 				<Connector>
 					<Id>1589175938784</Id>
 					<Name><![CDATA[connector31]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>540</X><Y>1440</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3577,7 +3580,7 @@
 				<Connector>
 					<Id>1589175938787</Id>
 					<Name><![CDATA[connector36]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>540</X><Y>1440</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3610,7 +3613,7 @@
 				<Connector>
 					<Id>1589175966566</Id>
 					<Name><![CDATA[connector32]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>540</X><Y>1440</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3643,7 +3646,7 @@
 				<Connector>
 					<Id>1589175966567</Id>
 					<Name><![CDATA[connector37]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>540</X><Y>1440</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3676,7 +3679,7 @@
 				<Connector>
 					<Id>1589176027554</Id>
 					<Name><![CDATA[connector120]]></Name>
-					<X>-290</X><Y>380</Y>
+					<X>250</X><Y>1820</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3709,7 +3712,7 @@
 				<Connector>
 					<Id>1591095395786</Id>
 					<Name><![CDATA[connector12]]></Name>
-					<X>-470</X><Y>330</Y>
+					<X>70</X><Y>1770</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3742,7 +3745,7 @@
 				<Connector>
 					<Id>1591095416067</Id>
 					<Name><![CDATA[connector13]]></Name>
-					<X>-380</X><Y>380</Y>
+					<X>160</X><Y>1820</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3775,7 +3778,7 @@
 				<Connector>
 					<Id>1592041808178</Id>
 					<Name><![CDATA[connector14]]></Name>
-					<X>1540</X><Y>950</Y>
+					<X>2080</X><Y>2390</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3808,7 +3811,7 @@
 				<Connector>
 					<Id>1592041811793</Id>
 					<Name><![CDATA[connector15]]></Name>
-					<X>1540</X><Y>860</Y>
+					<X>2080</X><Y>2300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3841,7 +3844,7 @@
 				<Connector>
 					<Id>1592042984346</Id>
 					<Name><![CDATA[connector16]]></Name>
-					<X>230</X><Y>860</Y>
+					<X>770</X><Y>2300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3874,7 +3877,7 @@
 				<Connector>
 					<Id>1592042984350</Id>
 					<Name><![CDATA[connector17]]></Name>
-					<X>280</X><Y>860</Y>
+					<X>820</X><Y>2300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3909,7 +3912,7 @@
 				<Connector>
 					<Id>1588668087344</Id>
 					<Name><![CDATA[connector77]]></Name>
-					<X>770</X><Y>840</Y>
+					<X>1310</X><Y>2280</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3942,7 +3945,7 @@
 				<Connector>
 					<Id>1588668050707</Id>
 					<Name><![CDATA[connector73]]></Name>
-					<X>820</X><Y>840</Y>
+					<X>1360</X><Y>2280</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3977,7 +3980,7 @@
 				<Connector>
 					<Id>1592149288945</Id>
 					<Name><![CDATA[connector8]]></Name>
-					<X>1140</X><Y>710</Y>
+					<X>1680</X><Y>2150</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4010,7 +4013,7 @@
 				<Connector>
 					<Id>1592149294522</Id>
 					<Name><![CDATA[connector18]]></Name>
-					<X>1530</X><Y>720</Y>
+					<X>2070</X><Y>2160</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4043,7 +4046,7 @@
 				<Connector>
 					<Id>1592149297170</Id>
 					<Name><![CDATA[connector19]]></Name>
-					<X>1610</X><Y>720</Y>
+					<X>2150</X><Y>2160</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4076,7 +4079,7 @@
 				<Connector>
 					<Id>1592149300814</Id>
 					<Name><![CDATA[connector20]]></Name>
-					<X>1720</X><Y>770</Y>
+					<X>2260</X><Y>2210</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4109,7 +4112,7 @@
 				<Connector>
 					<Id>1592149322189</Id>
 					<Name><![CDATA[connector55]]></Name>
-					<X>1300</X><Y>770</Y>
+					<X>1840</X><Y>2210</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4142,7 +4145,7 @@
 				<Connector>
 					<Id>1592149324749</Id>
 					<Name><![CDATA[connector56]]></Name>
-					<X>1530</X><Y>780</Y>
+					<X>2070</X><Y>2220</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4175,7 +4178,7 @@
 				<Connector>
 					<Id>1592149327329</Id>
 					<Name><![CDATA[connector62]]></Name>
-					<X>1610</X><Y>780</Y>
+					<X>2150</X><Y>2220</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4208,7 +4211,7 @@
 				<Connector>
 					<Id>1592149330223</Id>
 					<Name><![CDATA[connector63]]></Name>
-					<X>1720</X><Y>830</Y>
+					<X>2260</X><Y>2270</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4241,7 +4244,7 @@
 				<Connector>
 					<Id>1592151917219</Id>
 					<Name><![CDATA[connector58]]></Name>
-					<X>370</X><Y>890</Y>
+					<X>910</X><Y>2330</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4274,7 +4277,7 @@
 				<Connector>
 					<Id>1592151925809</Id>
 					<Name><![CDATA[connector59]]></Name>
-					<X>430</X><Y>890</Y>
+					<X>970</X><Y>2330</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4309,7 +4312,7 @@
 				<Connector>
 					<Id>1592151929547</Id>
 					<Name><![CDATA[connector60]]></Name>
-					<X>430</X><Y>910</Y>
+					<X>970</X><Y>2350</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4344,7 +4347,7 @@
 				<Connector>
 					<Id>1592151938721</Id>
 					<Name><![CDATA[connector61]]></Name>
-					<X>370</X><Y>840</Y>
+					<X>910</X><Y>2280</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4381,7 +4384,7 @@
 				<Connector>
 					<Id>1592203642885</Id>
 					<Name><![CDATA[connector64]]></Name>
-					<X>180</X><Y>320</Y>
+					<X>720</X><Y>1760</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4414,7 +4417,7 @@
 				<Connector>
 					<Id>1592203656458</Id>
 					<Name><![CDATA[connector69]]></Name>
-					<X>50</X><Y>340</Y>
+					<X>590</X><Y>1780</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4447,7 +4450,7 @@
 				<Connector>
 					<Id>1592203710520</Id>
 					<Name><![CDATA[connector26]]></Name>
-					<X>140</X><Y>410</Y>
+					<X>680</X><Y>1850</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4480,7 +4483,7 @@
 				<Connector>
 					<Id>1592203710521</Id>
 					<Name><![CDATA[connector100]]></Name>
-					<X>170</X><Y>410</Y>
+					<X>710</X><Y>1850</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4513,7 +4516,7 @@
 				<Connector>
 					<Id>1592203720300</Id>
 					<Name><![CDATA[connector70]]></Name>
-					<X>50</X><Y>430</Y>
+					<X>590</X><Y>1870</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4546,7 +4549,7 @@
 				<Connector>
 					<Id>1592203756138</Id>
 					<Name><![CDATA[connector103]]></Name>
-					<X>50</X><Y>530</Y>
+					<X>590</X><Y>1970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4579,7 +4582,7 @@
 				<Connector>
 					<Id>1592203777356</Id>
 					<Name><![CDATA[connector27]]></Name>
-					<X>140</X><Y>510</Y>
+					<X>680</X><Y>1950</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4612,7 +4615,7 @@
 				<Connector>
 					<Id>1592203779528</Id>
 					<Name><![CDATA[connector104]]></Name>
-					<X>170</X><Y>510</Y>
+					<X>710</X><Y>1950</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4645,7 +4648,7 @@
 				<Connector>
 					<Id>1592203797654</Id>
 					<Name><![CDATA[connector28]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>540</X><Y>1440</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4678,7 +4681,7 @@
 				<Connector>
 					<Id>1592203797655</Id>
 					<Name><![CDATA[connector107]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>540</X><Y>1440</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4711,7 +4714,7 @@
 				<Connector>
 					<Id>1592203802348</Id>
 					<Name><![CDATA[connector112]]></Name>
-					<X>50</X><Y>620</Y>
+					<X>590</X><Y>2060</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4748,7 +4751,7 @@
 					<ReturnType><![CDATA[double]]></ReturnType>
 					<Id>1591210110418</Id>
 					<Name><![CDATA[function]]></Name>
-					<X>-800</X><Y>850</Y>
+					<X>-1280</X><Y>890</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4762,6 +4765,23 @@
 реакционный_объем = объем_сырья/скорость_подачи_сырья;
 высота_камеры = реакционный_объем/площадь_п_с;
 //скорость_заполнения_коксом = производительность/плотность_кокса_в_к;]]></Body>
+				</Function>
+				<Function AccessType="default" StaticFunction="false">
+					<ReturnModificator>VOID</ReturnModificator>
+					<ReturnType><![CDATA[double]]></ReturnType>
+					<Id>1592246231042</Id>
+					<Name><![CDATA[navigate]]></Name>
+					<X>600</X><Y>-160</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Parameter>
+						<Name><![CDATA[va]]></Name>
+						<Type><![CDATA[ViewArea]]></Type>
+					</Parameter>
+					<Body><![CDATA[va.navigateTo();
+group.setPos( 600, va.getY());]]></Body>
 				</Function>
 			</Functions>
 			<AgentLinks>
@@ -4790,7 +4810,7 @@
 				<EmbeddedObject>
 					<Id>1587228777486</Id>
 					<Name><![CDATA[С]]></Name>
-					<X>60</X><Y>60</Y>
+					<X>600</X><Y>1500</Y>
 					<Label><X>10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4902,7 +4922,7 @@
 				<EmbeddedObject>
 					<Id>1587286690223</Id>
 					<Name><![CDATA[ТС1]]></Name>
-					<X>130</X><Y>60</Y>
+					<X>670</X><Y>1500</Y>
 					<Label><X>10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5021,7 +5041,7 @@
 				<EmbeddedObject>
 					<Id>1587287074547</Id>
 					<Name><![CDATA[НС]]></Name>
-					<X>220</X><Y>60</Y>
+					<X>760</X><Y>1500</Y>
 					<Label><X>-5</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5115,7 +5135,7 @@
 				<EmbeddedObject>
 					<Id>1587403923279</Id>
 					<Name><![CDATA[РК]]></Name>
-					<X>120</X><Y>800</Y>
+					<X>660</X><Y>2240</Y>
 					<Label><X>5</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5285,7 +5305,7 @@
 				<EmbeddedObject>
 					<Id>1587404616126</Id>
 					<Name><![CDATA[ТС2]]></Name>
-					<X>400</X><Y>20</Y>
+					<X>940</X><Y>1460</Y>
 					<Label><X>10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5404,7 +5424,7 @@
 				<EmbeddedObject>
 					<Id>1587404727044</Id>
 					<Name><![CDATA[ТС3]]></Name>
-					<X>400</X><Y>90</Y>
+					<X>940</X><Y>1530</Y>
 					<Label><X>5</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5523,7 +5543,7 @@
 				<EmbeddedObject>
 					<Id>1587480175203</Id>
 					<Name><![CDATA[КК1]]></Name>
-					<X>110</X><Y>260</Y>
+					<X>650</X><Y>1700</Y>
 					<Label><X>35</X><Y>30</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5684,7 +5704,7 @@ fs3.select(1);
 				<EmbeddedObject>
 					<Id>1587480213459</Id>
 					<Name><![CDATA[КК2]]></Name>
-					<X>110</X><Y>350</Y>
+					<X>650</X><Y>1790</Y>
 					<Label><X>0</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5843,7 +5863,7 @@ fs4.select(1);
 				<EmbeddedObject>
 					<Id>1587480323207</Id>
 					<Name><![CDATA[КК3]]></Name>
-					<X>110</X><Y>450</Y>
+					<X>650</X><Y>1890</Y>
 					<Label><X>0</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6005,7 +6025,7 @@ fs4.select(1);
 				<EmbeddedObject>
 					<Id>1587480325835</Id>
 					<Name><![CDATA[КК4]]></Name>
-					<X>110</X><Y>540</Y>
+					<X>650</X><Y>1980</Y>
 					<Label><X>0</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6157,7 +6177,7 @@ fs4.select(1);
 				<EmbeddedObject>
 					<Id>1587481325500</Id>
 					<Name><![CDATA[КК4Т1]]></Name>
-					<X>180</X><Y>590</Y>
+					<X>720</X><Y>2030</Y>
 					<Label><X>5</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6276,7 +6296,7 @@ fs4.select(1);
 				<EmbeddedObject>
 					<Id>1587481345558</Id>
 					<Name><![CDATA[КК3Т1]]></Name>
-					<X>180</X><Y>500</Y>
+					<X>720</X><Y>1940</Y>
 					<Label><X>5</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6395,7 +6415,7 @@ fs4.select(1);
 				<EmbeddedObject>
 					<Id>1587481355347</Id>
 					<Name><![CDATA[КК2Т1]]></Name>
-					<X>180</X><Y>400</Y>
+					<X>720</X><Y>1840</Y>
 					<Label><X>5</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6514,7 +6534,7 @@ fs4.select(1);
 				<EmbeddedObject>
 					<Id>1587481359225</Id>
 					<Name><![CDATA[КК1Т1]]></Name>
-					<X>190</X><Y>310</Y>
+					<X>730</X><Y>1750</Y>
 					<Label><X>5</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6633,7 +6653,7 @@ fs4.select(1);
 				<EmbeddedObject>
 					<Id>1587482120164</Id>
 					<Name><![CDATA[КК4Т2]]></Name>
-					<X>330</X><Y>590</Y>
+					<X>870</X><Y>2030</Y>
 					<Label><X>0</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6752,7 +6772,7 @@ fs4.select(1);
 				<EmbeddedObject>
 					<Id>1587482135913</Id>
 					<Name><![CDATA[КК3Т2]]></Name>
-					<X>330</X><Y>500</Y>
+					<X>870</X><Y>1940</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6871,7 +6891,7 @@ fs4.select(1);
 				<EmbeddedObject>
 					<Id>1587482138064</Id>
 					<Name><![CDATA[КК2Т2]]></Name>
-					<X>330</X><Y>400</Y>
+					<X>870</X><Y>1840</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6990,7 +7010,7 @@ fs4.select(1);
 				<EmbeddedObject>
 					<Id>1587482139797</Id>
 					<Name><![CDATA[КК1Т2]]></Name>
-					<X>330</X><Y>310</Y>
+					<X>870</X><Y>1750</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7109,7 +7129,7 @@ fs4.select(1);
 				<EmbeddedObject>
 					<Id>1587482247927</Id>
 					<Name><![CDATA[КК34Т1]]></Name>
-					<X>670</X><Y>560</Y>
+					<X>1210</X><Y>2000</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7228,7 +7248,7 @@ fs4.select(1);
 				<EmbeddedObject>
 					<Id>1587482257618</Id>
 					<Name><![CDATA[КК12Т1]]></Name>
-					<X>670</X><Y>370</Y>
+					<X>1210</X><Y>1810</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7347,7 +7367,7 @@ fs4.select(1);
 				<EmbeddedObject>
 					<Id>1587482429814</Id>
 					<Name><![CDATA[КК1234Т1]]></Name>
-					<X>830</X><Y>450</Y>
+					<X>1370</X><Y>1890</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7466,7 +7486,7 @@ fs4.select(1);
 				<EmbeddedObject>
 					<Id>1587482938769</Id>
 					<Name><![CDATA[П1]]></Name>
-					<X>500</X><Y>20</Y>
+					<X>1040</X><Y>1460</Y>
 					<Label><X>0</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7650,7 +7670,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1587482951118</Id>
 					<Name><![CDATA[П2]]></Name>
-					<X>500</X><Y>90</Y>
+					<X>1040</X><Y>1530</Y>
 					<Label><X>0</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7820,7 +7840,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1587483064782</Id>
 					<Name><![CDATA[П1Т1]]></Name>
-					<X>560</X><Y>70</Y>
+					<X>1100</X><Y>1510</Y>
 					<Label><X>5</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7939,7 +7959,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1587483178705</Id>
 					<Name><![CDATA[П2Т1]]></Name>
-					<X>560</X><Y>140</Y>
+					<X>1100</X><Y>1580</Y>
 					<Label><X>5</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8058,7 +8078,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1587484410759</Id>
 					<Name><![CDATA[РКТ1]]></Name>
-					<X>180</X><Y>850</Y>
+					<X>720</X><Y>2290</Y>
 					<Label><X>5</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8177,7 +8197,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1587485025686</Id>
 					<Name><![CDATA[П1T4]]></Name>
-					<X>770</X><Y>50</Y>
+					<X>1310</X><Y>1490</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8296,7 +8316,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1587485044573</Id>
 					<Name><![CDATA[П1T5]]></Name>
-					<X>770</X><Y>90</Y>
+					<X>1310</X><Y>1530</Y>
 					<Label><X>5</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8415,7 +8435,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588160645945</Id>
 					<Name><![CDATA[П2Т4]]></Name>
-					<X>770</X><Y>130</Y>
+					<X>1310</X><Y>1570</Y>
 					<Label><X>5</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8534,7 +8554,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588160669063</Id>
 					<Name><![CDATA[П2Т5]]></Name>
-					<X>770</X><Y>160</Y>
+					<X>1310</X><Y>1600</Y>
 					<Label><X>5</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8653,7 +8673,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588162190896</Id>
 					<Name><![CDATA[РКТ5]]></Name>
-					<X>470</X><Y>830</Y>
+					<X>1010</X><Y>2270</Y>
 					<Label><X>5</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8772,7 +8792,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588162305558</Id>
 					<Name><![CDATA[РКТ6]]></Name>
-					<X>470</X><Y>880</Y>
+					<X>1010</X><Y>2320</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8891,7 +8911,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588162493574</Id>
 					<Name><![CDATA[АВО1]]></Name>
-					<X>540</X><Y>730</Y>
+					<X>1080</X><Y>2170</Y>
 					<Label><X>-5</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9007,7 +9027,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588162725797</Id>
 					<Name><![CDATA[ВХ]]></Name>
-					<X>630</X><Y>730</Y>
+					<X>1170</X><Y>2170</Y>
 					<Label><X>5</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9123,7 +9143,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588162787022</Id>
 					<Name><![CDATA[ВГЗ]]></Name>
-					<X>720</X><Y>730</Y>
+					<X>1260</X><Y>2170</Y>
 					<Label><X>5</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9239,7 +9259,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588163066475</Id>
 					<Name><![CDATA[ВГЗТ1]]></Name>
-					<X>780</X><Y>750</Y>
+					<X>1320</X><Y>2190</Y>
 					<Label><X>0</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9358,7 +9378,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588163085899</Id>
 					<Name><![CDATA[Н1ВГЗ]]></Name>
-					<X>1030</X><Y>700</Y>
+					<X>1570</X><Y>2140</Y>
 					<Label><X>-15</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9455,7 +9475,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588264014185</Id>
 					<Name><![CDATA[Н2ВГЗ]]></Name>
-					<X>1030</X><Y>740</Y>
+					<X>1570</X><Y>2180</Y>
 					<Label><X>-15</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9552,7 +9572,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588264195577</Id>
 					<Name><![CDATA[ВГЗТ2]]></Name>
-					<X>940</X><Y>700</Y>
+					<X>1480</X><Y>2140</Y>
 					<Label><X>0</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9671,7 +9691,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588264233948</Id>
 					<Name><![CDATA[ВГЗТ3]]></Name>
-					<X>940</X><Y>740</Y>
+					<X>1480</X><Y>2180</Y>
 					<Label><X>0</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9790,7 +9810,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588264454420</Id>
 					<Name><![CDATA[ТК1]]></Name>
-					<X>1110</X><Y>800</Y>
+					<X>1650</X><Y>2240</Y>
 					<Label><X>0</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9948,7 +9968,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588264780910</Id>
 					<Name><![CDATA[ВГЗТ4]]></Name>
-					<X>1250</X><Y>730</Y>
+					<X>1790</X><Y>2170</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10067,7 +10087,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588264784756</Id>
 					<Name><![CDATA[ВГЗТ5]]></Name>
-					<X>1250</X><Y>760</Y>
+					<X>1790</X><Y>2200</Y>
 					<Label><X>0</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10186,7 +10206,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588265020987</Id>
 					<Name><![CDATA[ТК2]]></Name>
-					<X>1110</X><Y>890</Y>
+					<X>1650</X><Y>2330</Y>
 					<Label><X>0</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10344,7 +10364,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588265849834</Id>
 					<Name><![CDATA[ОК1]]></Name>
-					<X>580</X><Y>820</Y>
+					<X>1120</X><Y>2260</Y>
 					<Label><X>0</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10460,7 +10480,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588265859953</Id>
 					<Name><![CDATA[ОК2]]></Name>
-					<X>650</X><Y>820</Y>
+					<X>1190</X><Y>2260</Y>
 					<Label><X>0</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10576,7 +10596,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588266535296</Id>
 					<Name><![CDATA[Т1ОК1]]></Name>
-					<X>720</X><Y>830</Y>
+					<X>1260</X><Y>2270</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10695,7 +10715,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588266567133</Id>
 					<Name><![CDATA[Т1ОК2]]></Name>
-					<X>720</X><Y>890</Y>
+					<X>1260</X><Y>2330</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10814,7 +10834,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588266736595</Id>
 					<Name><![CDATA[Т2ОК1]]></Name>
-					<X>870</X><Y>780</Y>
+					<X>1410</X><Y>2220</Y>
 					<Label><X>-5</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10936,7 +10956,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588266762853</Id>
 					<Name><![CDATA[Т3ОК1]]></Name>
-					<X>870</X><Y>840</Y>
+					<X>1410</X><Y>2280</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11055,7 +11075,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588266785301</Id>
 					<Name><![CDATA[Т2ОК2]]></Name>
-					<X>870</X><Y>870</Y>
+					<X>1410</X><Y>2310</Y>
 					<Label><X>0</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11174,7 +11194,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588266799500</Id>
 					<Name><![CDATA[Т3ОК2]]></Name>
-					<X>870</X><Y>930</Y>
+					<X>1410</X><Y>2370</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11293,7 +11313,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588267226769</Id>
 					<Name><![CDATA[НОК1]]></Name>
-					<X>960</X><Y>840</Y>
+					<X>1500</X><Y>2280</Y>
 					<Label><X>-15</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11390,7 +11410,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588267237058</Id>
 					<Name><![CDATA[НОК2]]></Name>
-					<X>960</X><Y>930</Y>
+					<X>1500</X><Y>2370</Y>
 					<Label><X>-15</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11487,7 +11507,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588267701166</Id>
 					<Name><![CDATA[АВО2]]></Name>
-					<X>1230</X><Y>800</Y>
+					<X>1770</X><Y>2240</Y>
 					<Label><X>-5</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11603,7 +11623,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588267727239</Id>
 					<Name><![CDATA[АВО3]]></Name>
-					<X>1230</X><Y>890</Y>
+					<X>1770</X><Y>2330</Y>
 					<Label><X>-5</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11719,7 +11739,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588267983810</Id>
 					<Name><![CDATA[ПК]]></Name>
-					<X>420</X><Y>430</Y>
+					<X>960</X><Y>1870</Y>
 					<Label><X>35</X><Y>35</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11858,7 +11878,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588268214466</Id>
 					<Name><![CDATA[КК4Т3]]></Name>
-					<X>510</X><Y>610</Y>
+					<X>1050</X><Y>2050</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11977,7 +11997,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588268222139</Id>
 					<Name><![CDATA[КК3Т3]]></Name>
-					<X>510</X><Y>520</Y>
+					<X>1050</X><Y>1960</Y>
 					<Label><X>0</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12096,7 +12116,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588268232224</Id>
 					<Name><![CDATA[КК2Т3]]></Name>
-					<X>510</X><Y>420</Y>
+					<X>1050</X><Y>1860</Y>
 					<Label><X>0</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12215,7 +12235,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588268242210</Id>
 					<Name><![CDATA[КК1Т3]]></Name>
-					<X>510</X><Y>330</Y>
+					<X>1050</X><Y>1770</Y>
 					<Label><X>-5</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12334,7 +12354,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588490966716</Id>
 					<Name><![CDATA[ВТС1]]></Name>
-					<X>350</X><Y>60</Y>
+					<X>890</X><Y>1500</Y>
 					<Label><X>-30</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12433,7 +12453,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588491220032</Id>
 					<Name><![CDATA[ОКК34Т2]]></Name>
-					<X>600</X><Y>560</Y>
+					<X>1140</X><Y>2000</Y>
 					<Label><X>-15</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12553,7 +12573,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588491266488</Id>
 					<Name><![CDATA[ОКК12Т2]]></Name>
-					<X>600</X><Y>370</Y>
+					<X>1140</X><Y>1810</Y>
 					<Label><X>-10</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12673,7 +12693,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588491390791</Id>
 					<Name><![CDATA[ОКК1234Т1]]></Name>
-					<X>760</X><Y>450</Y>
+					<X>1300</X><Y>1890</Y>
 					<Label><X>-25</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12790,7 +12810,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588491428254</Id>
 					<Name><![CDATA[ВВГЗТ2]]></Name>
-					<X>1180</X><Y>740</Y>
+					<X>1720</X><Y>2180</Y>
 					<Label><X>-25</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12889,7 +12909,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588491450184</Id>
 					<Name><![CDATA[ВТ1ОК1]]></Name>
-					<X>800</X><Y>830</Y>
+					<X>1340</X><Y>2270</Y>
 					<Label><X>-20</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13000,7 +13020,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588491470178</Id>
 					<Name><![CDATA[ВТ1ОК2]]></Name>
-					<X>800</X><Y>890</Y>
+					<X>1340</X><Y>2330</Y>
 					<Label><X>-20</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13111,7 +13131,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588491494038</Id>
 					<Name><![CDATA[ВВГЗТ1]]></Name>
-					<X>880</X><Y>720</Y>
+					<X>1420</X><Y>2160</Y>
 					<Label><X>-20</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13210,7 +13230,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588491573107</Id>
 					<Name><![CDATA[ВРКТ2]]></Name>
-					<X>410</X><Y>880</Y>
+					<X>950</X><Y>2320</Y>
 					<Label><X>-15</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13309,7 +13329,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588495011224</Id>
 					<Name><![CDATA[РКТ2]]></Name>
-					<X>320</X><Y>830</Y>
+					<X>860</X><Y>2270</Y>
 					<Label><X>5</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13428,7 +13448,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588495047363</Id>
 					<Name><![CDATA[РКТ3]]></Name>
-					<X>320</X><Y>880</Y>
+					<X>860</X><Y>2320</Y>
 					<Label><X>5</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13547,7 +13567,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588535911408</Id>
 					<Name><![CDATA[Т4ОК1]]></Name>
-					<X>1010</X><Y>840</Y>
+					<X>1550</X><Y>2280</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13663,7 +13683,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588536024234</Id>
 					<Name><![CDATA[Т4ОК2]]></Name>
-					<X>1010</X><Y>930</Y>
+					<X>1550</X><Y>2370</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13779,7 +13799,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588600059019</Id>
 					<Name><![CDATA[ТНС]]></Name>
-					<X>270</X><Y>60</Y>
+					<X>810</X><Y>1500</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13898,7 +13918,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588600149941</Id>
 					<Name><![CDATA[ТН1ВГЗ]]></Name>
-					<X>1090</X><Y>700</Y>
+					<X>1630</X><Y>2140</Y>
 					<Label><X>-5</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14017,7 +14037,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588600241989</Id>
 					<Name><![CDATA[ТН2ВГЗ]]></Name>
-					<X>1090</X><Y>740</Y>
+					<X>1630</X><Y>2180</Y>
 					<Label><X>-5</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14136,7 +14156,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588766789613</Id>
 					<Name><![CDATA[Т1АВО1]]></Name>
-					<X>580</X><Y>700</Y>
+					<X>1120</X><Y>2140</Y>
 					<Label><X>0</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14255,7 +14275,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588766843653</Id>
 					<Name><![CDATA[Т1ВХ]]></Name>
-					<X>670</X><Y>700</Y>
+					<X>1210</X><Y>2140</Y>
 					<Label><X>5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14374,7 +14394,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588766937898</Id>
 					<Name><![CDATA[Т1ТК1]]></Name>
-					<X>1160</X><Y>850</Y>
+					<X>1700</X><Y>2290</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14493,7 +14513,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1588766959197</Id>
 					<Name><![CDATA[Т1ТК2]]></Name>
-					<X>1160</X><Y>940</Y>
+					<X>1700</X><Y>2380</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14612,7 +14632,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1589043065648</Id>
 					<Name><![CDATA[С1]]></Name>
-					<X>-130</X><Y>270</Y>
+					<X>410</X><Y>1710</Y>
 					<Label><X>10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14728,7 +14748,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1589043074708</Id>
 					<Name><![CDATA[С2]]></Name>
-					<X>-130</X><Y>460</Y>
+					<X>410</X><Y>1900</Y>
 					<Label><X>10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14844,7 +14864,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1589175480977</Id>
 					<Name><![CDATA[Вода]]></Name>
-					<X>-500</X><Y>320</Y>
+					<X>40</X><Y>1760</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14953,7 +14973,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1589175517870</Id>
 					<Name><![CDATA[ВП2Т2]]></Name>
-					<X>-290</X><Y>370</Y>
+					<X>250</X><Y>1810</Y>
 					<Label><X>30</X><Y>10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15037,7 +15057,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1589175573644</Id>
 					<Name><![CDATA[ВКК1Т2]]></Name>
-					<X>-210</X><Y>310</Y>
+					<X>330</X><Y>1750</Y>
 					<Label><X>-40</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15136,7 +15156,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1589175694470</Id>
 					<Name><![CDATA[ВКК1Т3]]></Name>
-					<X>-210</X><Y>510</Y>
+					<X>330</X><Y>1950</Y>
 					<Label><X>-45</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15235,7 +15255,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1589175793977</Id>
 					<Name><![CDATA[ВКК1Т1]]></Name>
-					<X>260</X><Y>310</Y>
+					<X>800</X><Y>1750</Y>
 					<Label><X>-15</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15322,7 +15342,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1589175875606</Id>
 					<Name><![CDATA[ВКК2Т1]]></Name>
-					<X>270</X><Y>400</Y>
+					<X>810</X><Y>1840</Y>
 					<Label><X>-15</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15409,7 +15429,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1589175877810</Id>
 					<Name><![CDATA[ВКК3Т1]]></Name>
-					<X>270</X><Y>500</Y>
+					<X>810</X><Y>1940</Y>
 					<Label><X>-15</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15496,7 +15516,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1589175955747</Id>
 					<Name><![CDATA[ВКК4Т1]]></Name>
-					<X>270</X><Y>590</Y>
+					<X>810</X><Y>2030</Y>
 					<Label><X>-15</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15583,7 +15603,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1589176024571</Id>
 					<Name><![CDATA[valve]]></Name>
-					<X>-340</X><Y>370</Y>
+					<X>200</X><Y>1810</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15680,7 +15700,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1591095340159</Id>
 					<Name><![CDATA[Ё]]></Name>
-					<X>-410</X><Y>320</Y>
+					<X>130</X><Y>1760</Y>
 					<Label><X>5</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15821,7 +15841,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1591095737424</Id>
 					<Name><![CDATA[ВП1Т3]]></Name>
-					<X>680</X><Y>70</Y>
+					<X>1220</X><Y>1510</Y>
 					<Label><X>-15</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15908,7 +15928,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1591095761112</Id>
 					<Name><![CDATA[ВП2Т3]]></Name>
-					<X>680</X><Y>140</Y>
+					<X>1220</X><Y>1580</Y>
 					<Label><X>-15</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15995,7 +16015,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1592041805162</Id>
 					<Name><![CDATA[Легкий_Газойль]]></Name>
-					<X>1540</X><Y>930</Y>
+					<X>2080</X><Y>2370</Y>
 					<Label><X>-40</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16064,7 +16084,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1592041809840</Id>
 					<Name><![CDATA[Тяжелый_Газойль]]></Name>
-					<X>1540</X><Y>840</Y>
+					<X>2080</X><Y>2280</Y>
 					<Label><X>-40</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16133,7 +16153,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1592042979934</Id>
 					<Name><![CDATA[ВРКТ1]]></Name>
-					<X>260</X><Y>850</Y>
+					<X>800</X><Y>2290</Y>
 					<Label><X>-30</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16241,7 +16261,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1592076420137</Id>
 					<Name><![CDATA[fluidDispose]]></Name>
-					<X>160</X><Y>710</Y>
+					<X>700</X><Y>2150</Y>
 					<Label><X>-40</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16310,7 +16330,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1592077508501</Id>
 					<Name><![CDATA[Легкий_Газойль2]]></Name>
-					<X>1850</X><Y>810</Y>
+					<X>2390</X><Y>2250</Y>
 					<Label><X>-40</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16379,7 +16399,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1592077511926</Id>
 					<Name><![CDATA[Тяжелый_Газойль2]]></Name>
-					<X>1850</X><Y>750</Y>
+					<X>2390</X><Y>2190</Y>
 					<Label><X>-40</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16448,7 +16468,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1592149274710</Id>
 					<Name><![CDATA[ТК3]]></Name>
-					<X>1500</X><Y>660</Y>
+					<X>2040</X><Y>2100</Y>
 					<Label><X>0</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16606,7 +16626,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1592149274750</Id>
 					<Name><![CDATA[АВО4]]></Name>
-					<X>1690</X><Y>710</Y>
+					<X>2230</X><Y>2150</Y>
 					<Label><X>-5</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16722,7 +16742,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1592149274781</Id>
 					<Name><![CDATA[Т1ТК3]]></Name>
-					<X>1560</X><Y>710</Y>
+					<X>2100</X><Y>2150</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16838,7 +16858,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1592149308391</Id>
 					<Name><![CDATA[ТК4]]></Name>
-					<X>1500</X><Y>720</Y>
+					<X>2040</X><Y>2160</Y>
 					<Label><X>0</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16996,7 +17016,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1592149308421</Id>
 					<Name><![CDATA[АВО5]]></Name>
-					<X>1690</X><Y>770</Y>
+					<X>2230</X><Y>2210</Y>
 					<Label><X>-5</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17112,7 +17132,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1592149308451</Id>
 					<Name><![CDATA[Т1ТК4]]></Name>
-					<X>1560</X><Y>770</Y>
+					<X>2100</X><Y>2210</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17228,7 +17248,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1592152325762</Id>
 					<Name><![CDATA[fluidDispose1]]></Name>
-					<X>190</X><Y>760</Y>
+					<X>730</X><Y>2200</Y>
 					<Label><X>-40</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17297,7 +17317,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1592203521940</Id>
 					<Name><![CDATA[Пары]]></Name>
-					<X>20</X><Y>330</Y>
+					<X>560</X><Y>1770</Y>
 					<Label><X>-25</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17402,7 +17422,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1592203640474</Id>
 					<Name><![CDATA[fs1]]></Name>
-					<X>160</X><Y>310</Y>
+					<X>700</X><Y>1750</Y>
 					<Label><X>6</X><Y>32</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17483,7 +17503,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1592203682232</Id>
 					<Name><![CDATA[Пары1]]></Name>
-					<X>20</X><Y>420</Y>
+					<X>560</X><Y>1860</Y>
 					<Label><X>-25</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17588,7 +17608,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1592203706922</Id>
 					<Name><![CDATA[fs2]]></Name>
-					<X>150</X><Y>400</Y>
+					<X>690</X><Y>1840</Y>
 					<Label><X>6</X><Y>32</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17669,7 +17689,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1592203739668</Id>
 					<Name><![CDATA[Пары2]]></Name>
-					<X>20</X><Y>520</Y>
+					<X>560</X><Y>1960</Y>
 					<Label><X>-25</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17774,7 +17794,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1592203739682</Id>
 					<Name><![CDATA[fs3]]></Name>
-					<X>150</X><Y>500</Y>
+					<X>690</X><Y>1940</Y>
 					<Label><X>6</X><Y>32</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17855,7 +17875,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1592203782388</Id>
 					<Name><![CDATA[Пары3]]></Name>
-					<X>20</X><Y>610</Y>
+					<X>560</X><Y>2050</Y>
 					<Label><X>-25</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17960,7 +17980,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1592203782410</Id>
 					<Name><![CDATA[fs4]]></Name>
-					<X>150</X><Y>590</Y>
+					<X>690</X><Y>2030</Y>
 					<Label><X>6</X><Y>32</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18054,10 +18074,32 @@ fs3.select(2);
 					<LevelVisibility>DIM_NON_CURRENT</LevelVisibility>
 
 			<Presentation>
+				<Rectangle>
+					<Id>1592246940712</Id>
+					<Name><![CDATA[rectangle6]]></Name>
+					<X>-680</X><Y>2600</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>-10</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>0.1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>3800</Width>
+					<Height>1800</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor/>
+					<FillMaterial>tarmac</FillMaterial>
+				</Rectangle>
 				<Text>
 					<Id>1587484307108</Id>
 					<Name><![CDATA[text]]></Name>
-					<X>940</X><Y>250</Y>
+					<X>1480</X><Y>1690</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18092,7 +18134,7 @@ fs3.select(2);
 				<StorageTank>
 					<Id>1588272995366</Id>
 					<Name><![CDATA[С_vis]]></Name>
-					<X>160</X><Y>1360</Y>
+					<X>460</X><Y>3180</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18107,7 +18149,7 @@ fs3.select(2);
 				<Line>
 					<Id>1588273143691</Id>
 					<Name><![CDATA[line]]></Name>
-					<X>160</X><Y>1360</Y>
+					<X>460</X><Y>3180</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18131,7 +18173,7 @@ fs3.select(2);
 				<Text>
 					<Id>1588273152164</Id>
 					<Name><![CDATA[text1]]></Name>
-					<X>120</X><Y>1240</Y>
+					<X>420</X><Y>3060</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18152,9 +18194,9 @@ fs3.select(2);
 				<Control Type="Window3D">
 					<Id>1588426267818</Id>
 					<Name><![CDATA[window3d]]></Name>
-					<X>0</X><Y>2100</Y>
-					<Width>1700</Width>
-					<Height>1000</Height>
+					<X>0</X><Y>100</Y>
+					<Width>2600</Width>
+					<Height>1100</Height>
 					<MakeDefaultViewArea>true</MakeDefaultViewArea>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ShowLabel>false</ShowLabel>
@@ -18165,7 +18207,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588699578931</Id>
 					<Name><![CDATA[ТС1_vis]]></Name>
-					<X>160</X><Y>1360</Y>
+					<X>460</X><Y>3180</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18185,7 +18227,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588699586446</Id>
 					<Name><![CDATA[ТНС_vis]]></Name>
-					<X>300</X><Y>1360</Y>
+					<X>600</X><Y>3180</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18204,7 +18246,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588699642511</Id>
 					<Name><![CDATA[ТС2_vis]]></Name>
-					<X>380</X><Y>1360</Y>
+					<X>680</X><Y>3180</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18223,7 +18265,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588699649495</Id>
 					<Name><![CDATA[ТС3_vis]]></Name>
-					<X>380</X><Y>1360</Y>
+					<X>680</X><Y>3180</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18242,7 +18284,7 @@ fs3.select(2);
 				<StorageTank>
 					<Id>1588699719525</Id>
 					<Name><![CDATA[П2_vis]]></Name>
-					<X>500</X><Y>1420</Y>
+					<X>800</X><Y>3240</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18257,7 +18299,7 @@ fs3.select(2);
 				<StorageTank>
 					<Id>1588699729275</Id>
 					<Name><![CDATA[П1_vis]]></Name>
-					<X>500</X><Y>1300</Y>
+					<X>800</X><Y>3120</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18272,7 +18314,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588699813119</Id>
 					<Name><![CDATA[П1Т1_vis]]></Name>
-					<X>530</X><Y>1300</Y>
+					<X>830</X><Y>3120</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18291,7 +18333,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588699816306</Id>
 					<Name><![CDATA[П2Т1_vis]]></Name>
-					<X>530</X><Y>1420</Y>
+					<X>830</X><Y>3240</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18310,7 +18352,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588699865025</Id>
 					<Name><![CDATA[П1Т2_vis]]></Name>
-					<X>600</X><Y>1300</Y>
+					<X>900</X><Y>3120</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18331,7 +18373,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588699868697</Id>
 					<Name><![CDATA[П2Т2_vis]]></Name>
-					<X>600</X><Y>1420</Y>
+					<X>900</X><Y>3240</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18351,7 +18393,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588699892807</Id>
 					<Name><![CDATA[П1Т3_vis]]></Name>
-					<X>600</X><Y>1300</Y>
+					<X>900</X><Y>3120</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18370,7 +18412,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588699900151</Id>
 					<Name><![CDATA[П2Т3_vis]]></Name>
-					<X>600</X><Y>1420</Y>
+					<X>900</X><Y>3240</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18389,7 +18431,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588700012056</Id>
 					<Name><![CDATA[П12Т1_vis]]></Name>
-					<X>740</X><Y>1360</Y>
+					<X>1040</X><Y>3180</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18409,7 +18451,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588700090727</Id>
 					<Name><![CDATA[П1T4_vis]]></Name>
-					<X>700</X><Y>1260</Y>
+					<X>1000</X><Y>3080</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18428,7 +18470,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588700093633</Id>
 					<Name><![CDATA[П2Т4_vis]]></Name>
-					<X>700</X><Y>1460</Y>
+					<X>1000</X><Y>3280</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18447,7 +18489,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588700099352</Id>
 					<Name><![CDATA[П1T5_vis]]></Name>
-					<X>700</X><Y>1260</Y>
+					<X>1000</X><Y>3080</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18466,7 +18508,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588700103617</Id>
 					<Name><![CDATA[П2Т5_vis]]></Name>
-					<X>700</X><Y>1460</Y>
+					<X>1000</X><Y>3280</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18485,7 +18527,7 @@ fs3.select(2);
 				<StorageTank>
 					<Id>1588700239242</Id>
 					<Name><![CDATA[КК2_vis]]></Name>
-					<X>1000</X><Y>1300</Y>
+					<X>1300</X><Y>3120</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18500,7 +18542,7 @@ fs3.select(2);
 				<StorageTank>
 					<Id>1588700243476</Id>
 					<Name><![CDATA[КК1_vis]]></Name>
-					<X>1000</X><Y>1220</Y>
+					<X>1300</X><Y>3040</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18515,7 +18557,7 @@ fs3.select(2);
 				<StorageTank>
 					<Id>1588700249304</Id>
 					<Name><![CDATA[КК3_vis]]></Name>
-					<X>1000</X><Y>1420</Y>
+					<X>1300</X><Y>3240</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18530,7 +18572,7 @@ fs3.select(2);
 				<StorageTank>
 					<Id>1588700249306</Id>
 					<Name><![CDATA[КК4_vis]]></Name>
-					<X>1000</X><Y>1500</Y>
+					<X>1300</X><Y>3320</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18545,7 +18587,7 @@ fs3.select(2);
 				<StorageTank>
 					<Id>1588700298695</Id>
 					<Name><![CDATA[РК_vis]]></Name>
-					<X>1000</X><Y>1630</Y>
+					<X>1300</X><Y>3450</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18560,7 +18602,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588700665430</Id>
 					<Name><![CDATA[КК1Т1_vis]]></Name>
-					<X>1030</X><Y>1220</Y>
+					<X>1330</X><Y>3040</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18578,7 +18620,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588700677336</Id>
 					<Name><![CDATA[КК2Т1_vis]]></Name>
-					<X>1030</X><Y>1300</Y>
+					<X>1330</X><Y>3120</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18596,7 +18638,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588700688679</Id>
 					<Name><![CDATA[КК3Т1_vis]]></Name>
-					<X>1030</X><Y>1420</Y>
+					<X>1330</X><Y>3240</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18614,7 +18656,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588700695679</Id>
 					<Name><![CDATA[КК4Т1_vis]]></Name>
-					<X>1030</X><Y>1500</Y>
+					<X>1330</X><Y>3320</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18632,7 +18674,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588702613317</Id>
 					<Name><![CDATA[КК1Т2_vis]]></Name>
-					<X>1320</X><Y>1220</Y>
+					<X>1620</X><Y>3040</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18652,7 +18694,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588702623274</Id>
 					<Name><![CDATA[КК2Т2_vis]]></Name>
-					<X>1320</X><Y>1300</Y>
+					<X>1620</X><Y>3120</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18673,7 +18715,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588702628092</Id>
 					<Name><![CDATA[КК3Т2_vis]]></Name>
-					<X>1320</X><Y>1420</Y>
+					<X>1620</X><Y>3240</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18693,7 +18735,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588702631107</Id>
 					<Name><![CDATA[КК4Т2_vis]]></Name>
-					<X>1320</X><Y>1500</Y>
+					<X>1620</X><Y>3320</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18713,7 +18755,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588702634466</Id>
 					<Name><![CDATA[КК4Т3_vis]]></Name>
-					<X>1320</X><Y>1500</Y>
+					<X>1620</X><Y>3320</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18733,7 +18775,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588702648556</Id>
 					<Name><![CDATA[КК3Т3_vis]]></Name>
-					<X>1320</X><Y>1420</Y>
+					<X>1620</X><Y>3240</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18753,7 +18795,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588702651436</Id>
 					<Name><![CDATA[КК2Т3_vis]]></Name>
-					<X>1320</X><Y>1300</Y>
+					<X>1620</X><Y>3120</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18773,7 +18815,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588702654670</Id>
 					<Name><![CDATA[КК1Т3_vis]]></Name>
-					<X>1320</X><Y>1220</Y>
+					<X>1620</X><Y>3040</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18793,7 +18835,7 @@ fs3.select(2);
 				<StorageTank>
 					<Id>1588702910310</Id>
 					<Name><![CDATA[КК3_vis1]]></Name>
-					<X>1500</X><Y>1375</Y>
+					<X>1800</X><Y>3195</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18808,7 +18850,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588703253888</Id>
 					<Name><![CDATA[КК12Т1_vis]]></Name>
-					<X>1550</X><Y>1280</Y>
+					<X>1850</X><Y>3100</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18827,7 +18869,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588703258350</Id>
 					<Name><![CDATA[КК34Т1_vis]]></Name>
-					<X>1550</X><Y>1480</Y>
+					<X>1850</X><Y>3300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18846,7 +18888,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588703394349</Id>
 					<Name><![CDATA[КК1234Т1_vis]]></Name>
-					<X>1650</X><Y>1375</Y>
+					<X>1950</X><Y>3195</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18866,7 +18908,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588703576752</Id>
 					<Name><![CDATA[РКТ1_vis]]></Name>
-					<X>830</X><Y>1630</Y>
+					<X>1130</X><Y>3450</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18884,7 +18926,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588703772624</Id>
 					<Name><![CDATA[РКТ3_vis]]></Name>
-					<X>750</X><Y>1600</Y>
+					<X>1050</X><Y>3420</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18903,7 +18945,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588703776561</Id>
 					<Name><![CDATA[РКТ2_vis]]></Name>
-					<X>750</X><Y>1750</Y>
+					<X>1050</X><Y>3570</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18920,28 +18962,9 @@ fs3.select(2);
 					</Points>
 				</Pipe>
 				<Pipe>
-					<Id>1588703856109</Id>
-					<Name><![CDATA[РКТ7_vis]]></Name>
-					<X>620</X><Y>1530</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>1073807104</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<Diameter>8</Diameter>
-					<Points>
-						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>130</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>130</X><Y>70</Y><Z>0</Z></Point>
-					</Points>
-				</Pipe>
-				<Pipe>
 					<Id>1588703857718</Id>
 					<Name><![CDATA[РКТ5_vis]]></Name>
-					<X>680</X><Y>1800</Y>
+					<X>980</X><Y>3620</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18960,7 +18983,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588703868926</Id>
 					<Name><![CDATA[РКТ4_vis]]></Name>
-					<X>675</X><Y>1725</Y>
+					<X>975</X><Y>3545</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18979,7 +19002,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588703880537</Id>
 					<Name><![CDATA[РКТ6_vis]]></Name>
-					<X>660</X><Y>1600</Y>
+					<X>960</X><Y>3420</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18995,67 +19018,10 @@ fs3.select(2);
 						<Point><X>90</X><Y>0</Y><Z>0</Z></Point>
 					</Points>
 				</Pipe>
-				<Pipe>
-					<Id>1588868036192</Id>
-					<Name><![CDATA[РКТ8_vis]]></Name>
-					<X>500</X><Y>1530</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>1090453504</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<Diameter>8</Diameter>
-					<Points>
-						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>50</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>120</X><Y>0</Y><Z>0</Z></Point>
-					</Points>
-				</Pipe>
-				<Pipe>
-					<Id>1588868119205</Id>
-					<Name><![CDATA[РКТ9_vis]]></Name>
-					<X>480</X><Y>1275</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>1073807359</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<Diameter>8</Diameter>
-					<Points>
-						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>-30</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>-30</X><Y>255</Y><Z>0</Z></Point>
-						<Point><X>20</X><Y>255</Y><Z>0</Z></Point>
-					</Points>
-				</Pipe>
-				<Pipe>
-					<Id>1588868148066</Id>
-					<Name><![CDATA[РКТ10_vis]]></Name>
-					<X>500</X><Y>1450</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>1090518784</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<Diameter>8</Diameter>
-					<Points>
-						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>80</Y><Z>0</Z></Point>
-					</Points>
-				</Pipe>
 				<StorageTank>
 					<Id>1588868721634</Id>
 					<Name><![CDATA[ОК2_vis]]></Name>
-					<X>630</X><Y>1600</Y>
+					<X>930</X><Y>3420</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19070,7 +19036,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588868754994</Id>
 					<Name><![CDATA[Т1ОК2_vis]]></Name>
-					<X>550</X><Y>1600</Y>
+					<X>850</X><Y>3420</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19088,7 +19054,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588868785295</Id>
 					<Name><![CDATA[Т2ОК2_vis]]></Name>
-					<X>1050</X><Y>1700</Y>
+					<X>1350</X><Y>3520</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19110,7 +19076,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588868793618</Id>
 					<Name><![CDATA[Т3ОК2_vis]]></Name>
-					<X>500</X><Y>1625</Y>
+					<X>800</X><Y>3445</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19129,7 +19095,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588868936898</Id>
 					<Name><![CDATA[Т4ОК2_vis]]></Name>
-					<X>480</X><Y>1625</Y>
+					<X>780</X><Y>3445</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19147,7 +19113,7 @@ fs3.select(2);
 				<StorageTank>
 					<Id>1588869081957</Id>
 					<Name><![CDATA[ТК2_vis]]></Name>
-					<X>445</X><Y>1625</Y>
+					<X>745</X><Y>3445</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19162,7 +19128,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588869136007</Id>
 					<Name><![CDATA[Т1ТК2_vis]]></Name>
-					<X>385</X><Y>1625</Y>
+					<X>685</X><Y>3445</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19180,7 +19146,7 @@ fs3.select(2);
 				<StorageTank>
 					<Id>1588869170561</Id>
 					<Name><![CDATA[АВО3_vis]]></Name>
-					<X>350</X><Y>1625</Y>
+					<X>650</X><Y>3445</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19195,7 +19161,7 @@ fs3.select(2);
 				<StorageTank>
 					<Id>1588869232675</Id>
 					<Name><![CDATA[АВО1_vis]]></Name>
-					<X>645</X><Y>1725</Y>
+					<X>945</X><Y>3545</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19210,7 +19176,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588869332144</Id>
 					<Name><![CDATA[Т1АВО1_vis]]></Name>
-					<X>610</X><Y>1725</Y>
+					<X>910</X><Y>3545</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19228,7 +19194,7 @@ fs3.select(2);
 				<StorageTank>
 					<Id>1588869395920</Id>
 					<Name><![CDATA[ВХ_vis]]></Name>
-					<X>560</X><Y>1725</Y>
+					<X>860</X><Y>3545</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19243,7 +19209,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588869436200</Id>
 					<Name><![CDATA[Т1ВХ_vis]]></Name>
-					<X>525</X><Y>1725</Y>
+					<X>825</X><Y>3545</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19261,7 +19227,7 @@ fs3.select(2);
 				<StorageTank>
 					<Id>1588869463265</Id>
 					<Name><![CDATA[ВГЗ_vis]]></Name>
-					<X>455</X><Y>1725</Y>
+					<X>755</X><Y>3545</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19276,7 +19242,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588869550521</Id>
 					<Name><![CDATA[ВГЗТ1_vis]]></Name>
-					<X>420</X><Y>1725</Y>
+					<X>720</X><Y>3545</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19294,7 +19260,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588869796912</Id>
 					<Name><![CDATA[ВГЗТ2_vis]]></Name>
-					<X>400</X><Y>1725</Y>
+					<X>700</X><Y>3545</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19312,7 +19278,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588869800240</Id>
 					<Name><![CDATA[ВГЗТ3_vis]]></Name>
-					<X>400</X><Y>1725</Y>
+					<X>700</X><Y>3545</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19330,7 +19296,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588869873142</Id>
 					<Name><![CDATA[ТН2ВГЗ_vis]]></Name>
-					<X>400</X><Y>1710</Y>
+					<X>700</X><Y>3530</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19349,7 +19315,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588869925438</Id>
 					<Name><![CDATA[ВГЗТ5_vis]]></Name>
-					<X>355</X><Y>1700</Y>
+					<X>655</X><Y>3520</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19369,7 +19335,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588870111443</Id>
 					<Name><![CDATA[ВГЗТ4_vis]]></Name>
-					<X>355</X><Y>1700</Y>
+					<X>655</X><Y>3520</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19390,7 +19356,7 @@ fs3.select(2);
 				<StorageTank>
 					<Id>1588870387426</Id>
 					<Name><![CDATA[ОК1_vis]]></Name>
-					<X>650</X><Y>1800</Y>
+					<X>950</X><Y>3620</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19405,7 +19371,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588870461831</Id>
 					<Name><![CDATA[Т1ОК1_vis]]></Name>
-					<X>620</X><Y>1800</Y>
+					<X>920</X><Y>3620</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19423,7 +19389,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588870510284</Id>
 					<Name><![CDATA[Т2ОК1_vis]]></Name>
-					<X>580</X><Y>1800</Y>
+					<X>880</X><Y>3620</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19443,7 +19409,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588870525050</Id>
 					<Name><![CDATA[Т3ОК1_vis]]></Name>
-					<X>580</X><Y>1800</Y>
+					<X>880</X><Y>3620</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19461,7 +19427,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588870600285</Id>
 					<Name><![CDATA[Т4ОК1_vis]]></Name>
-					<X>540</X><Y>1800</Y>
+					<X>840</X><Y>3620</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19479,7 +19445,7 @@ fs3.select(2);
 				<StorageTank>
 					<Id>1588870689798</Id>
 					<Name><![CDATA[ТК1_vis]]></Name>
-					<X>470</X><Y>1800</Y>
+					<X>770</X><Y>3620</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19494,7 +19460,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588870801125</Id>
 					<Name><![CDATA[ТН1ВГЗ_vis]]></Name>
-					<X>400</X><Y>1750</Y>
+					<X>700</X><Y>3570</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19513,7 +19479,7 @@ fs3.select(2);
 				<Pipe>
 					<Id>1588870853548</Id>
 					<Name><![CDATA[Т1ТК1_vis]]></Name>
-					<X>470</X><Y>1830</Y>
+					<X>770</X><Y>3650</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19532,7 +19498,7 @@ fs3.select(2);
 				<StorageTank>
 					<Id>1588870870813</Id>
 					<Name><![CDATA[АВО2_vis]]></Name>
-					<X>350</X><Y>1840</Y>
+					<X>650</X><Y>3660</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19547,7 +19513,7 @@ fs3.select(2);
 				<Text>
 					<Id>1590945692757</Id>
 					<Name><![CDATA[text2]]></Name>
-					<X>-700</X><Y>-40</Y>
+					<X>-920</X><Y>-340</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19666,7 +19632,7 @@ fs3.select(2);
 				<Text>
 					<Id>1591214196183</Id>
 					<Name><![CDATA[Gtext4]]></Name>
-					<X>-1350</X><Y>500</Y>
+					<X>-1830</X><Y>540</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19687,7 +19653,7 @@ fs3.select(2);
 				<Text>
 					<Id>1591214200567</Id>
 					<Name><![CDATA[Gtext5]]></Name>
-					<X>-1350</X><Y>540</Y>
+					<X>-1830</X><Y>580</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19710,7 +19676,7 @@ fs3.select(2);
 				<Text>
 					<Id>1591214231574</Id>
 					<Name><![CDATA[Gtext6]]></Name>
-					<X>-1350</X><Y>610</Y>
+					<X>-1830</X><Y>650</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19777,7 +19743,7 @@ fs3.select(2);
 				<Text>
 					<Id>1591214499805</Id>
 					<Name><![CDATA[Gtext10]]></Name>
-					<X>-1350</X><Y>650</Y>
+					<X>-1830</X><Y>690</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19798,7 +19764,7 @@ fs3.select(2);
 				<Text>
 					<Id>1591214520797</Id>
 					<Name><![CDATA[Gtext11]]></Name>
-					<X>-1350</X><Y>790</Y>
+					<X>-1830</X><Y>830</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19820,7 +19786,7 @@ fs3.select(2);
 				<Text>
 					<Id>1591214587729</Id>
 					<Name><![CDATA[Gtext12]]></Name>
-					<X>-800</X><Y>700</Y>
+					<X>-1280</X><Y>740</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19841,7 +19807,7 @@ fs3.select(2);
 				<Text>
 					<Id>1591214627438</Id>
 					<Name><![CDATA[Gtext13]]></Name>
-					<X>-1350</X><Y>930</Y>
+					<X>-1830</X><Y>970</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19886,7 +19852,7 @@ fs3.select(2);
 				<Text>
 					<Id>1591214627452</Id>
 					<Name><![CDATA[Gtext16]]></Name>
-					<X>-800</X><Y>540</Y>
+					<X>-1280</X><Y>580</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19908,7 +19874,7 @@ fs3.select(2);
 				<Text>
 					<Id>1591214627455</Id>
 					<Name><![CDATA[Gtext17]]></Name>
-					<X>-1350</X><Y>880</Y>
+					<X>-1830</X><Y>920</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19930,7 +19896,7 @@ fs3.select(2);
 				<Text>
 					<Id>1591214627458</Id>
 					<Name><![CDATA[Gtext18]]></Name>
-					<X>-1350</X><Y>690</Y>
+					<X>-1830</X><Y>730</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19951,7 +19917,7 @@ fs3.select(2);
 				<Text>
 					<Id>1591214627460</Id>
 					<Name><![CDATA[Gtext19]]></Name>
-					<X>-1350</X><Y>730</Y>
+					<X>-1830</X><Y>770</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19973,7 +19939,7 @@ fs3.select(2);
 				<Text>
 					<Id>1591214869330</Id>
 					<Name><![CDATA[Gtext20]]></Name>
-					<X>-800</X><Y>590</Y>
+					<X>-1280</X><Y>630</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19998,7 +19964,7 @@ fs3.select(2);
 				<Text>
 					<Id>1591214919575</Id>
 					<Name><![CDATA[Gtext21]]></Name>
-					<X>-1350</X><Y>840</Y>
+					<X>-1830</X><Y>880</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20084,7 +20050,7 @@ fs3.select(2);
 				<Rectangle>
 					<Id>1591296809968</Id>
 					<Name><![CDATA[rectangle1]]></Name>
-					<X>-1400</X><Y>460</Y>
+					<X>-1880</X><Y>500</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20106,7 +20072,7 @@ fs3.select(2);
 				<Text>
 					<Id>1591296822973</Id>
 					<Name><![CDATA[text4]]></Name>
-					<X>-980</X><Y>420</Y>
+					<X>-1460</X><Y>460</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20149,7 +20115,7 @@ fs3.select(2);
 				<Text>
 					<Id>1591381532089</Id>
 					<Name><![CDATA[Gtext23]]></Name>
-					<X>-800</X><Y>740</Y>
+					<X>-1280</X><Y>780</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20170,7 +20136,7 @@ fs3.select(2);
 				<Text>
 					<Id>1591381695176</Id>
 					<Name><![CDATA[Gtext24]]></Name>
-					<X>-800</X><Y>790</Y>
+					<X>-1280</X><Y>830</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20188,10 +20154,411 @@ fs3.select(2);
 					</Font>
 					<Alignment>LEFT</Alignment>
 				</Text>
+				<Group>
+					<Id>1592246280259</Id>
+					<Name><![CDATA[group]]></Name>
+					<X>600</X><Y>60</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+
+			<Presentation>
+				<Rectangle>
+					<Id>1592244976157</Id>
+					<Name><![CDATA[rectangle5]]></Name>
+					<X>-600</X><Y>-60</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<OnClickCode><![CDATA[getEngine().run();]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>300</Width>
+					<Height>100</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+				</Rectangle>
+				<Text>
+					<Id>1592246124079</Id>
+					<Name><![CDATA[text8]]></Name>
+					<X>-540</X><Y>-40</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<OnClickCode><![CDATA[getEngine().run();]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Запуск
+]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>48</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Rectangle>
+					<Id>1592244936579</Id>
+					<Name><![CDATA[rectangle2]]></Name>
+					<X>-300</X><Y>-60</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<OnClickCode><![CDATA[navigate(viewArea);]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>300</Width>
+					<Height>100</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+				</Rectangle>
+				<Rectangle>
+					<Id>1592244964834</Id>
+					<Name><![CDATA[rectangle3]]></Name>
+					<X>0</X><Y>-60</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<OnClickCode><![CDATA[navigate(viewArea2);]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>300</Width>
+					<Height>100</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+				</Rectangle>
+				<Rectangle>
+					<Id>1592244969440</Id>
+					<Name><![CDATA[rectangle4]]></Name>
+					<X>300</X><Y>-60</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<OnClickCode><![CDATA[navigate(viewArea1);]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>300</Width>
+					<Height>100</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+				</Rectangle>
+				<Text>
+					<Id>1592244987521</Id>
+					<Name><![CDATA[text5]]></Name>
+					<X>-180</X><Y>-40</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<OnClickCode><![CDATA[navigate(viewArea);]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[3D]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>48</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1592245023347</Id>
+					<Name><![CDATA[text6]]></Name>
+					<X>110</X><Y>-40</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<OnClickCode><![CDATA[navigate(viewArea2);]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[2D]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>48</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1592245032725</Id>
+					<Name><![CDATA[text7]]></Name>
+					<X>370</X><Y>-40</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<OnClickCode><![CDATA[navigate(viewArea1);]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Схема]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>48</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+			</Presentation>
+
+				</Group>
+				<Figure3D>
+					<Id>1592247258933</Id>
+					<Name><![CDATA[object3d]]></Name>
+					<X>-180</X><Y>3160</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>-180</X><Y>3160</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
+						<ClassName><![CDATA[3d/cooler_tower_2.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[MA___auto_1]]></Name>
+							<OriginalColor>-11447983</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA___auto_2]]></Name>
+							<OriginalColor>-5921371</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>4.7</Scale>
+					<Rotation>0.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+				</Figure3D>
+				<Figure3D>
+					<Id>1592248268873</Id>
+					<Name><![CDATA[object3d1]]></Name>
+					<X>-140</X><Y>3640</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>-140</X><Y>3640</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
+						<ClassName><![CDATA[3d/cooler_tower_2.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[MA___auto_1]]></Name>
+							<OriginalColor>-11447983</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA___auto_2]]></Name>
+							<OriginalColor>-5921371</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>2.3</Scale>
+					<Rotation>0.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+				</Figure3D>
+				<Figure3D>
+					<Id>1592248329612</Id>
+					<Name><![CDATA[object3d2]]></Name>
+					<X>1920</X><Y>3840</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>1920</X><Y>3840</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
+						<ClassName><![CDATA[3d/tank_1.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[MA_material]]></Name>
+							<OriginalColor>-11447983</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_material_11]]></Name>
+							<OriginalColor>-3552823</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>11.5</Scale>
+					<Rotation>0.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+				</Figure3D>
+				<Figure3D>
+					<Id>1592248355356</Id>
+					<Name><![CDATA[object3d3]]></Name>
+					<X>2120</X><Y>3840</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>2120</X><Y>3840</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
+						<ClassName><![CDATA[3d/tank_1.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[MA_material]]></Name>
+							<OriginalColor>-11447983</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_material_11]]></Name>
+							<OriginalColor>-3552823</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>11.5</Scale>
+					<Rotation>0.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+				</Figure3D>
+				<Figure3D>
+					<Id>1592248361474</Id>
+					<Name><![CDATA[object3d4]]></Name>
+					<X>1720</X><Y>3840</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>1720</X><Y>3840</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
+						<ClassName><![CDATA[3d/tank_1.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[MA_material]]></Name>
+							<OriginalColor>-11447983</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_material_11]]></Name>
+							<OriginalColor>-3552823</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>11.5</Scale>
+					<Rotation>0.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+				</Figure3D>
 			</Presentation>
 
 				</Level>
 			</Presentation>
+			<Areas>
+				<Area>
+					<Id>1592244319420</Id>
+					<Name><![CDATA[viewArea]]></Name>
+					<X>0</X><Y>0</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<Title><![CDATA[]]></Title>
+					<Width>2600</Width>
+					<Height>1200</Height>
+				</Area>
+				<Area>
+					<Id>1592244334135</Id>
+					<Name><![CDATA[viewArea1]]></Name>
+					<X>0</X><Y>1400</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<Title><![CDATA[]]></Title>
+					<Width>2600</Width>
+					<Height>1200</Height>
+				</Area>
+				<Area>
+					<Id>1592244812673</Id>
+					<Name><![CDATA[viewArea2]]></Name>
+					<X>0</X><Y>2800</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<Title><![CDATA[]]></Title>
+					<Width>2600</Width>
+					<Height>1200</Height>
+				</Area>
+			</Areas>
 
 		</ActiveObjectClass>
 	</ActiveObjectClasses>	
@@ -20203,8 +20570,8 @@ fs3.select(2);
 	<RelativeAccuracy>1.0E-5</RelativeAccuracy>
 	<TimeAccuracy>1.0E-5</TimeAccuracy>
 	<Frame>
-		<Width>1460</Width>
-		<Height>1000</Height>
+		<Width>2600</Width>
+		<Height>1200</Height>
 	</Frame>
 	<Database>
 		<Logging>false</Logging>
@@ -20304,6 +20671,16 @@ fs3.select(2);
 			</ModelTimeProperties>
 		</SimulationExperiment>	
 	</Experiments>
+	<ModelResources>
+		<Resource>
+			<Path><![CDATA[3d/cooler_tower_2.dae]]></Path>
+			<ReferencedFromUserCode>false</ReferencedFromUserCode>
+		</Resource>
+		<Resource>
+			<Path><![CDATA[3d/tank_1.dae]]></Path>
+			<ReferencedFromUserCode>false</ReferencedFromUserCode>
+		</Resource>
+	</ModelResources>
     <RequiredLibraryReference>
 		<LibraryName><![CDATA[com.anylogic.libraries.processmodeling]]></LibraryName>
 		<VersionMajor>8</VersionMajor>
