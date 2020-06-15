@@ -480,6 +480,30 @@
 						</ParameterEditor>
 					</Properties>                 
 				</Variable>
+				<Variable Class="Parameter">
+					<Id>1592226454329</Id>
+					<Name><![CDATA[КК_номер]]></Name>
+					<X>-120</X><Y>190</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[int]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeValue">
+							<Code><![CDATA[24]]></Code>
+						</DefaultValue>
+						<ParameterEditor>
+							<Id>1592226454327</Id>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
 			</Variables>
 			<Connectors>
 				<Connector>
@@ -3151,7 +3175,7 @@
 				<Connector>
 					<Id>1589043107491</Id>
 					<Name><![CDATA[connector119]]></Name>
-					<X>-110</X><Y>470</Y>
+					<X>-100</X><Y>470</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3178,7 +3202,7 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>90</X><Y>0</Y></Point>
+						<Point><X>210</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -4898,7 +4922,7 @@
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[10]]></Code>
+								<Code><![CDATA[1]]></Code>
 								<Unit Class="AmountUnits"><![CDATA[CUBIC_METER]]></Unit>
 							</Value>
 						</Parameter>
@@ -5020,7 +5044,7 @@
 						<Parameter>
 							<Name><![CDATA[openRate]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[100]]></Code>
+								<Code><![CDATA[10]]></Code>
 								<Unit Class="FlowRateUnits"><![CDATA[CUBIC_METER_PER_SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -5281,7 +5305,7 @@
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[10]]></Code>
+								<Code><![CDATA[1]]></Code>
 								<Unit Class="AmountUnits"><![CDATA[CUBIC_METER]]></Unit>
 							</Value>
 						</Parameter>
@@ -5400,7 +5424,7 @@
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[10]]></Code>
+								<Code><![CDATA[1]]></Code>
 								<Unit Class="AmountUnits"><![CDATA[CUBIC_METER]]></Unit>
 							</Value>
 						</Parameter>
@@ -5602,7 +5626,10 @@
 							<Value Class="CodeValue">
 								<Code><![CDATA[ВП1Т3.select(2);
 КК1.set_amount2(0);
-КК1.set_amount1(V);]]></Code>
+КК1.set_amount1(V);
+fs1.select(1);
+fs3.select(1);
+КК_номер = 24;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -5758,10 +5785,10 @@
 						<Parameter>
 							<Name><![CDATA[onMixCompleted]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[fs2.select(1);
+								<Code><![CDATA[ВП1Т3.select(1);
+fs2.select(1);
 fs4.select(1);
-ВП1Т3.select(1);
-]]></Code>
+КК_номер = 13;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -5921,7 +5948,7 @@ fs4.select(1);
 						<Parameter>
 							<Name><![CDATA[onMixCompleted]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ВП1Т3.select(2);
+								<Code><![CDATA[ВП2Т3.select(2);
 КК3.set_amount2(0);
 КК3.set_amount1(V);]]></Code>
 							</Value>
@@ -7469,7 +7496,7 @@ fs4.select(1);
 						<Parameter>
 							<Name><![CDATA[amount1]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[V]]></Code>
+								<Code><![CDATA[V+20]]></Code>
 								<Unit Class="AmountUnits"><![CDATA[CUBIC_METER]]></Unit>
 							</Value>
 						</Parameter>
@@ -7531,7 +7558,7 @@ fs4.select(1);
 						<Parameter>
 							<Name><![CDATA[maxRateOut]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[1]]></Code>
+								<Code><![CDATA[5]]></Code>
 								<Unit Class="FlowRateUnits"><![CDATA[CUBIC_METER_PER_SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -7559,8 +7586,16 @@ fs4.select(1);
 						<Parameter>
 							<Name><![CDATA[onMixCompleted]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[fs2.select(2);
-fs4.select(2);]]></Code>
+								<Code><![CDATA[if(КК_номер == 24)
+{
+fs2.select(2);
+fs4.select(2);
+}
+if(КК_номер == 13)
+{
+fs1.select(2);
+fs3.select(2);
+}]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -7645,7 +7680,7 @@ fs4.select(2);]]></Code>
 						<Parameter>
 							<Name><![CDATA[amount1]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[V]]></Code>
+								<Code><![CDATA[V+20]]></Code>
 								<Unit Class="AmountUnits"><![CDATA[CUBIC_METER]]></Unit>
 							</Value>
 						</Parameter>
@@ -7702,7 +7737,7 @@ fs4.select(2);]]></Code>
 						<Parameter>
 							<Name><![CDATA[maxRateOut]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[1]]></Code>
+								<Code><![CDATA[5]]></Code>
 								<Unit Class="FlowRateUnits"><![CDATA[CUBIC_METER_PER_SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -8568,9 +8603,6 @@ fs4.select(2);]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onNewBatchIn]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[System.out.println("111");]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onNewBatchOut]]></Name>
@@ -13767,7 +13799,7 @@ fs4.select(2);]]></Code>
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[10]]></Code>
+								<Code><![CDATA[1]]></Code>
 								<Unit Class="AmountUnits"><![CDATA[CUBIC_METER]]></Unit>
 							</Value>
 						</Parameter>
@@ -14603,7 +14635,7 @@ fs4.select(2);]]></Code>
 						<Parameter>
 							<Name><![CDATA[rate]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[25]]></Code>
+								<Code><![CDATA[0.5]]></Code>
 								<Unit Class="FlowRateUnits"><![CDATA[CUBIC_METER_PER_SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -14696,7 +14728,7 @@ fs4.select(2);]]></Code>
 				<EmbeddedObject>
 					<Id>1589043074708</Id>
 					<Name><![CDATA[С2]]></Name>
-					<X>-140</X><Y>460</Y>
+					<X>-130</X><Y>460</Y>
 					<Label><X>10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14719,7 +14751,7 @@ fs4.select(2);]]></Code>
 						<Parameter>
 							<Name><![CDATA[rate]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[25]]></Code>
+								<Code><![CDATA[0.5]]></Code>
 								<Unit Class="FlowRateUnits"><![CDATA[CUBIC_METER_PER_SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -20250,6 +20282,9 @@ fs4.select(2);]]></Code>
 			<Parameters>			
 				<Parameter>
 					<ParameterName><![CDATA[V]]></ParameterName>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[КК_номер]]></ParameterName>
 				</Parameter>
 			</Parameters>			
 			<PresentationProperties>
