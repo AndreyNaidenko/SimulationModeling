@@ -945,39 +945,6 @@ function();
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1588664305142</Id>
-					<Name><![CDATA[connector25]]></Name>
-					<X>680</X><Y>1760</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[КК1]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
-						<ClassName><![CDATA[MixTank]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[fs1]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
-						<ClassName><![CDATA[FluidSelectInput]]></ClassName>
-						<ItemName><![CDATA[in1]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>20</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
 					<Id>1588664682171</Id>
 					<Name><![CDATA[connector38]]></Name>
 					<X>920</X><Y>2040</Y>
@@ -2733,7 +2700,7 @@ function();
 						<Point><X>-310</X><Y>-230</Y></Point>
 						<Point><X>-810</X><Y>-230</Y></Point>
 						<Point><X>-800</X><Y>-120</Y></Point>
-						<Point><X>-730</X><Y>-100</Y></Point>
+						<Point><X>-650</X><Y>-100</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -2770,7 +2737,7 @@ function();
 						<Point><X>500</X><Y>-130</Y></Point>
 						<Point><X>-360</X><Y>-130</Y></Point>
 						<Point><X>-800</X><Y>-130</Y></Point>
-						<Point><X>-760</X><Y>-60</Y></Point>
+						<Point><X>-590</X><Y>-50</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -4448,39 +4415,6 @@ function();
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1592203710520</Id>
-					<Name><![CDATA[connector26]]></Name>
-					<X>680</X><Y>1850</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[КК2]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
-						<ClassName><![CDATA[MixTank]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[fs2]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
-						<ClassName><![CDATA[FluidSelectInput]]></ClassName>
-						<ItemName><![CDATA[in1]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>10</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
 					<Id>1592203710521</Id>
 					<Name><![CDATA[connector100]]></Name>
 					<X>710</X><Y>1850</Y>
@@ -4580,39 +4514,6 @@ function();
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1592203777356</Id>
-					<Name><![CDATA[connector27]]></Name>
-					<X>680</X><Y>1950</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[КК3]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
-						<ClassName><![CDATA[MixTank]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[fs3]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
-						<ClassName><![CDATA[FluidSelectInput]]></ClassName>
-						<ItemName><![CDATA[in1]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>10</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
 					<Id>1592203779528</Id>
 					<Name><![CDATA[connector104]]></Name>
 					<X>710</X><Y>1950</Y>
@@ -4643,39 +4544,6 @@ function();
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>10</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1592203797654</Id>
-					<Name><![CDATA[connector28]]></Name>
-					<X>540</X><Y>1440</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[КК4]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
-						<ClassName><![CDATA[MixTank]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[fs4]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
-						<ClassName><![CDATA[FluidSelectInput]]></ClassName>
-						<ItemName><![CDATA[in1]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>140</X><Y>600</Y></Point>
-						<Point><X>150</X><Y>600</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -4742,6 +4610,171 @@ function();
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>100</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1588664305142</Id>
+					<Name><![CDATA[connector25]]></Name>
+					<X>680</X><Y>1760</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[КК1]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
+						<ClassName><![CDATA[MixTank]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[fs1]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
+						<ClassName><![CDATA[FluidSelectInput]]></ClassName>
+						<ItemName><![CDATA[in1]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>20</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1592203710520</Id>
+					<Name><![CDATA[connector26]]></Name>
+					<X>680</X><Y>1850</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[КК2]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
+						<ClassName><![CDATA[MixTank]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[fs2]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
+						<ClassName><![CDATA[FluidSelectInput]]></ClassName>
+						<ItemName><![CDATA[in1]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>10</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1592203777356</Id>
+					<Name><![CDATA[connector27]]></Name>
+					<X>680</X><Y>1950</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[КК3]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
+						<ClassName><![CDATA[MixTank]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[fs3]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
+						<ClassName><![CDATA[FluidSelectInput]]></ClassName>
+						<ItemName><![CDATA[in1]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>10</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1592203797654</Id>
+					<Name><![CDATA[connector28]]></Name>
+					<X>540</X><Y>1440</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[КК4]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
+						<ClassName><![CDATA[MixTank]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[fs4]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
+						<ClassName><![CDATA[FluidSelectInput]]></ClassName>
+						<ItemName><![CDATA[in1]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>140</X><Y>600</Y></Point>
+						<Point><X>150</X><Y>600</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1592319366165</Id>
+					<Name><![CDATA[connector106]]></Name>
+					<X>1080</X><Y>1930</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[fluidDispose2]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
+						<ClassName><![CDATA[FluidDispose]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[delayedcokingunit]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[ПК]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
+						<ClassName><![CDATA[MixTank]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>-90</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 			</Connectors>
@@ -4833,7 +4866,7 @@ group.setPos( 600, va.getY());]]></Body>
 						<Parameter>
 							<Name><![CDATA[rate]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[5]]></Code>
+								<Code><![CDATA[100]]></Code>
 								<Unit Class="FlowRateUnits"><![CDATA[CUBIC_METER_PER_SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -4949,7 +4982,7 @@ group.setPos( 600, va.getY());]]></Body>
 						<Parameter>
 							<Name><![CDATA[initialAmount]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[0]]></Code>
+								<Code><![CDATA[1]]></Code>
 								<Unit Class="AmountUnits"><![CDATA[CUBIC_METER]]></Unit>
 							</Value>
 						</Parameter>
@@ -5064,7 +5097,7 @@ group.setPos( 600, va.getY());]]></Body>
 						<Parameter>
 							<Name><![CDATA[openRate]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[10]]></Code>
+								<Code><![CDATA[100]]></Code>
 								<Unit Class="FlowRateUnits"><![CDATA[CUBIC_METER_PER_SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -5332,7 +5365,7 @@ group.setPos( 600, va.getY());]]></Body>
 						<Parameter>
 							<Name><![CDATA[initialAmount]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[0]]></Code>
+								<Code><![CDATA[1]]></Code>
 								<Unit Class="AmountUnits"><![CDATA[CUBIC_METER]]></Unit>
 							</Value>
 						</Parameter>
@@ -5451,7 +5484,7 @@ group.setPos( 600, va.getY());]]></Body>
 						<Parameter>
 							<Name><![CDATA[initialAmount]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[0]]></Code>
+								<Code><![CDATA[1]]></Code>
 								<Unit Class="AmountUnits"><![CDATA[CUBIC_METER]]></Unit>
 							</Value>
 						</Parameter>
@@ -5569,14 +5602,14 @@ group.setPos( 600, va.getY());]]></Body>
 						<Parameter>
 							<Name><![CDATA[amount1]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[V-10]]></Code>
+								<Code><![CDATA[V-V]]></Code>
 								<Unit Class="AmountUnits"><![CDATA[CUBIC_METER]]></Unit>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[amount2]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[10]]></Code>
+								<Code><![CDATA[V]]></Code>
 								<Unit Class="AmountUnits"><![CDATA[CUBIC_METER]]></Unit>
 							</Value>
 						</Parameter>
@@ -5622,12 +5655,21 @@ group.setPos( 600, va.getY());]]></Body>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[modeOutputBatch]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.OUTPUT_BATCH_CUSTOM]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[outputBatch]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA["1"]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[customOutputBatchColor]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[outputBatchColor]]></Name>
@@ -5649,7 +5691,15 @@ group.setPos( 600, va.getY());]]></Body>
 КК1.set_amount1(V);
 fs1.select(1);
 fs3.select(1);
-КК_номер = 24;]]></Code>
+ВКК1Т1.select(1);
+ВКК3Т1.select(1);
+КК_номер = 24;
+/*
+ПК.set_amount2(15);
+ПК.set_amount4(15);
+ПК.set_amount3(0);
+ПК.set_amount5(0);
+*/]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -5808,7 +5858,15 @@ fs3.select(1);
 								<Code><![CDATA[ВП1Т3.select(1);
 fs2.select(1);
 fs4.select(1);
-КК_номер = 13;]]></Code>
+ВКК2Т1.select(1);
+ВКК4Т1.select(1);
+КК_номер = 13;
+/*
+ПК.set_amount2(0);
+ПК.set_amount4(0);
+ПК.set_amount3(15);
+ПК.set_amount5(15);
+*/]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -5889,14 +5947,14 @@ fs4.select(1);
 						<Parameter>
 							<Name><![CDATA[amount1]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[V-10]]></Code>
+								<Code><![CDATA[V-V]]></Code>
 								<Unit Class="AmountUnits"><![CDATA[CUBIC_METER]]></Unit>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[amount2]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[10]]></Code>
+								<Code><![CDATA[V]]></Code>
 								<Unit Class="AmountUnits"><![CDATA[CUBIC_METER]]></Unit>
 							</Value>
 						</Parameter>
@@ -7578,7 +7636,7 @@ fs4.select(1);
 						<Parameter>
 							<Name><![CDATA[maxRateOut]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[5]]></Code>
+								<Code><![CDATA[10]]></Code>
 								<Unit Class="FlowRateUnits"><![CDATA[CUBIC_METER_PER_SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -7610,11 +7668,15 @@ fs4.select(1);
 {
 fs2.select(2);
 fs4.select(2);
+ВКК2Т1.select(2);
+ВКК4Т1.select(2);
 }
 if(КК_номер == 13)
 {
 fs1.select(2);
 fs3.select(2);
+ВКК1Т1.select(2);
+ВКК3Т1.select(2);
 }]]></Code>
 							</Value>
 						</Parameter>
@@ -7757,7 +7819,7 @@ fs3.select(2);
 						<Parameter>
 							<Name><![CDATA[maxRateOut]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[5]]></Code>
+								<Code><![CDATA[10]]></Code>
 								<Unit Class="FlowRateUnits"><![CDATA[CUBIC_METER_PER_SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -11765,21 +11827,37 @@ fs3.select(2);
 						<Parameter>
 							<Name><![CDATA[amount1]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[100]]></Code>
+								<Code><![CDATA[0]]></Code>
 								<Unit Class="AmountUnits"><![CDATA[CUBIC_METER]]></Unit>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[amount2]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[1]]></Code>
+								<Unit Class="AmountUnits"><![CDATA[CUBIC_METER]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[amount3]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[1]]></Code>
+								<Unit Class="AmountUnits"><![CDATA[CUBIC_METER]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[amount4]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[1]]></Code>
+								<Unit Class="AmountUnits"><![CDATA[CUBIC_METER]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[amount5]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[1]]></Code>
+								<Unit Class="AmountUnits"><![CDATA[CUBIC_METER]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[fraction1]]></Name>
@@ -11801,6 +11879,9 @@ fs3.select(2);
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[limitRateOut]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[maxRateOut]]></Name>
@@ -13826,7 +13907,7 @@ fs3.select(2);
 						<Parameter>
 							<Name><![CDATA[initialAmount]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[0]]></Code>
+								<Code><![CDATA[1]]></Code>
 								<Unit Class="AmountUnits"><![CDATA[CUBIC_METER]]></Unit>
 							</Value>
 						</Parameter>
@@ -14655,7 +14736,7 @@ fs3.select(2);
 						<Parameter>
 							<Name><![CDATA[rate]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[0.5]]></Code>
+								<Code><![CDATA[20]]></Code>
 								<Unit Class="FlowRateUnits"><![CDATA[CUBIC_METER_PER_SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -14668,7 +14749,7 @@ fs3.select(2);
 						<Parameter>
 							<Name><![CDATA[initialAmount]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[10]]></Code>
+								<Code><![CDATA[V]]></Code>
 								<Unit Class="AmountUnits"><![CDATA[CUBIC_METER]]></Unit>
 							</Value>
 						</Parameter>
@@ -14771,7 +14852,7 @@ fs3.select(2);
 						<Parameter>
 							<Name><![CDATA[rate]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[0.5]]></Code>
+								<Code><![CDATA[20]]></Code>
 								<Unit Class="FlowRateUnits"><![CDATA[CUBIC_METER_PER_SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -14784,7 +14865,7 @@ fs3.select(2);
 						<Parameter>
 							<Name><![CDATA[initialAmount]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[10]]></Code>
+								<Code><![CDATA[V]]></Code>
 								<Unit Class="AmountUnits"><![CDATA[CUBIC_METER]]></Unit>
 							</Value>
 						</Parameter>
@@ -16261,7 +16342,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1592076420137</Id>
 					<Name><![CDATA[fluidDispose]]></Name>
-					<X>700</X><Y>2150</Y>
+					<X>870</X><Y>2160</Y>
 					<Label><X>-40</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17248,7 +17329,7 @@ fs3.select(2);
 				<EmbeddedObject>
 					<Id>1592152325762</Id>
 					<Name><![CDATA[fluidDispose1]]></Name>
-					<X>730</X><Y>2200</Y>
+					<X>810</X><Y>2200</Y>
 					<Label><X>-40</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18014,6 +18095,75 @@ fs3.select(2);
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onNewBatchIn2]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onRateChange]]></Name>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
+					<XCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</XCode>
+					<YCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</YCode>
+					<ZCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ZCode>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LatitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LatitudeCode>
+					<LongitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LongitudeCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1592319351903</Id>
+					<Name><![CDATA[fluidDispose2]]></Name>
+					<X>1080</X><Y>1910</Y>
+					<Label><X>-40</X><Y>-15</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
+						<ClassName><![CDATA[FluidDispose]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.fluid]]></PackageName>
+							<ClassName><![CDATA[FluidDispose]]></ClassName>
+							<ItemName><![CDATA[1412618001589]]></ItemName>
+						</GenericParameterSubstituteReference>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[showBatchesInFlowchart]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onNewBatchIn]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRateChange]]></Name>
