@@ -5689,16 +5689,21 @@ group.setPos( 600, va.getY());]]></Body>
 								<Code><![CDATA[// начальное условие использовано
 // этот вход больше не нужен
 КК1.set_amount2(0);
+
 // переключаем подачу сырья на КК2
 ВП1Т3.select(2);
-// направляем пары в приемник
+
+// открываем объем для КК1 в ПК
+ПК.set_amount2(V);
+// направляем пары КК1 в приемник
 fs1.select(1);
 ВКК1Т1.select(1);
-// на потоке КК2, КК4
-КК_номер = 24;
-// направляем пары КК2, КК4 в РК
+
+// закрываем объем для КК2 в ПК
+ПК.set_amount3(0);
+// направляем пары КК2 в РК
 fs2.select(2);
-fs4.select(2);]]></Code>
+ВКК2Т1.select(2);]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -5830,7 +5835,7 @@ fs4.select(2);]]></Code>
 						<Parameter>
 							<Name><![CDATA[maxRateOut]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[10]]></Code>
+								<Code><![CDATA[0]]></Code>
 								<Unit Class="FlowRateUnits"><![CDATA[CUBIC_METER_PER_SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -5858,16 +5863,20 @@ fs4.select(2);]]></Code>
 						<Parameter>
 							<Name><![CDATA[onMixCompleted]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[// направляем поток в КК1
+								<Code><![CDATA[// переключаем подачу сырья на КК1
 ВП1Т3.select(1);
-// направляем пары в приемник
+
+// закрываем объем для КК1 в ПК
+//ПК.set_amount2(0);
+// направляем пары КК1 в РК
+//fs1.select(2);
+//ВКК1Т1.select(2);
+
+// открываем объем для КК2 в ПК
+ПК.set_amount3(V);
+// направляем пары КК2 в ПК
 fs2.select(1);
-ВКК2Т1.select(1);
-// на потоке КК1, КК3
-КК_номер = 13;
-// направляем пары КК1, КК3 в РК
-fs1.select(2);
-fs3.select(2);]]></Code>
+ВКК2Т1.select(1);]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6030,11 +6039,21 @@ fs3.select(2);]]></Code>
 								<Code><![CDATA[// начальное условие использовано
 // этот вход больше не нужен
 КК3.set_amount2(0);
+
 // переключаем подачу сырья на КК4
 ВП2Т3.select(2);
-// направляем пары в приемник
+
+// открываем объем для КК3 в ПК
+ПК.set_amount4(V);
+// направляем пары КК3 в приемник
 fs3.select(1);
-ВКК3Т1.select(1);]]></Code>
+ВКК3Т1.select(1);
+
+// закрываем объем для КК4 в ПК
+ПК.set_amount5(0);
+// направляем пары КК4 в РК
+fs4.select(2);
+ВКК4Т1.select(2);]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6162,7 +6181,7 @@ fs3.select(1);
 						<Parameter>
 							<Name><![CDATA[maxRateOut]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[10]]></Code>
+								<Code><![CDATA[0]]></Code>
 								<Unit Class="FlowRateUnits"><![CDATA[CUBIC_METER_PER_SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -6192,7 +6211,16 @@ fs3.select(1);
 							<Value Class="CodeValue">
 								<Code><![CDATA[// переключаем подачу сырья на КК3
 ВП2Т3.select(1);
-// направляем пары в приемник
+
+// закрываем объем для КК3 в ПК
+ПК.set_amount4(0);
+// направляем пары КК3 в РК
+fs3.select(2);
+ВКК3Т1.select(2);
+
+// открываем объем для КК4 в ПК
+ПК.set_amount5(V);
+// направляем пары КК4 в ПК
 fs4.select(1);
 ВКК4Т1.select(1);]]></Code>
 							</Value>
@@ -10539,28 +10567,28 @@ fs3.select(2);
 						<Parameter>
 							<Name><![CDATA[amount2]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[1]]></Code>
+								<Code><![CDATA[V]]></Code>
 								<Unit Class="AmountUnits"><![CDATA[CUBIC_METER]]></Unit>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[amount3]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[1]]></Code>
+								<Code><![CDATA[0]]></Code>
 								<Unit Class="AmountUnits"><![CDATA[CUBIC_METER]]></Unit>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[amount4]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[1]]></Code>
+								<Code><![CDATA[V]]></Code>
 								<Unit Class="AmountUnits"><![CDATA[CUBIC_METER]]></Unit>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[amount5]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[1]]></Code>
+								<Code><![CDATA[0]]></Code>
 								<Unit Class="AmountUnits"><![CDATA[CUBIC_METER]]></Unit>
 							</Value>
 						</Parameter>
@@ -10590,6 +10618,10 @@ fs3.select(2);
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[maxRateOut]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[100]]></Code>
+								<Unit Class="FlowRateUnits"><![CDATA[CUBIC_METER_PER_SECOND]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[modeOutputBatch]]></Name>
@@ -13590,9 +13622,6 @@ fs3.select(2);
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[selectOutput1]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[false]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[limitRateOut]]></Name>
@@ -13677,9 +13706,6 @@ fs3.select(2);
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[selectOutput1]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[false]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[limitRateOut]]></Name>
@@ -13764,9 +13790,6 @@ fs3.select(2);
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[selectOutput1]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[false]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[limitRateOut]]></Name>
@@ -13851,9 +13874,6 @@ fs3.select(2);
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[selectOutput1]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[false]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[limitRateOut]]></Name>
@@ -15937,9 +15957,6 @@ fs3.select(2);
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[selectInput1]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[false]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[limitRateOut]]></Name>
@@ -16312,9 +16329,6 @@ fs3.select(2);
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[selectInput1]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[false]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[limitRateOut]]></Name>
