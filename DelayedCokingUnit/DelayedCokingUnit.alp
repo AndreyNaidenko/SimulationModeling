@@ -10153,7 +10153,7 @@ fs3.select(2);
 						<Parameter>
 							<Name><![CDATA[onFull]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[РК.set_amount1(0.5);]]></Code>
+								<Code><![CDATA[РК.set_amount1(0);]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -10397,7 +10397,7 @@ fs3.select(2);
 						<Parameter>
 							<Name><![CDATA[onFull]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[РК.set_amount2(0.5);]]></Code>
+								<Code><![CDATA[РК.set_amount2(0);]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
